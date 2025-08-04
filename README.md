@@ -25,5 +25,14 @@ swift package --disable-sandbox generate-documentation \
   -o /Users/joeheck/src/swiftpm-docc-repo-example/docs
 ```
 
+Using GitHub pages, the combined Content is available from:
+
+- https://heckj.github.io/swiftpm-docc-repo-example/documentation
+
+Specific archives combined:
+  - https://heckj.github.io/swiftpm-docc-repo-example/documentation/packagemanagerdocs
+  - https://heckj.github.io/swiftpm-docc-repo-example/documentation/packageplugin
+  - https://heckj.github.io/swiftpm-docc-repo-example/documentation/packagedescription
+
 
 
