@@ -1,0 +1,829 @@
+{
+  "abstract" : [
+    {
+      "text" : "Learn to create and use Swift packages.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/GettingStarted"
+  },
+  "kind" : "article",
+  "metadata" : {
+    "modules" : [
+      {
+        "name" : "Swift Package Manager"
+      }
+    ],
+    "role" : "article",
+    "roleHeading" : "Article",
+    "title" : "Getting Started"
+  },
+  "primaryContentSections" : [
+    {
+      "content" : [
+        {
+          "anchor" : "Overview",
+          "level" : 2,
+          "text" : "Overview",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "To provide a more complete look at what the Swift Package Manager can do, the following example consists of three interdependent packages:",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "items" : [
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "identifier" : "https:\/\/github.com\/apple\/example-package-playingcard",
+                      "isActive" : true,
+                      "type" : "reference"
+                    },
+                    {
+                      "text" : " - Defines PlayingCard, Suit, and Rank types.",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
+                }
+              ]
+            },
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "identifier" : "https:\/\/github.com\/apple\/example-package-deckofplayingcards",
+                      "isActive" : true,
+                      "type" : "reference"
+                    },
+                    {
+                      "text" : " - Defines a Deck type that shuffles and deals an array of PlayingCard values.",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
+                }
+              ]
+            },
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "identifier" : "https:\/\/github.com\/apple\/example-package-dealer",
+                      "isActive" : true,
+                      "type" : "reference"
+                    },
+                    {
+                      "text" : " - Defines an executable that creates a DeckOfPlayingCards, shuffles it, and deals the first 10 cards.",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
+                }
+              ]
+            }
+          ],
+          "type" : "unorderedList"
+        },
+        {
+          "anchor" : "Creating-a-Library-Package",
+          "level" : 3,
+          "text" : "Creating a Library Package",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "We’ll start by creating a target representing a playing card in a standard 52-card deck.",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "The ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "https:\/\/github.com\/apple\/example-package-playingcard",
+              "isActive" : true,
+              "overridingTitle" : "PlayingCard",
+              "overridingTitleInlineContent" : [
+                {
+                  "text" : "PlayingCard",
+                  "type" : "text"
+                }
+              ],
+              "type" : "reference"
+            },
+            {
+              "text" : " target defines the PlayingCard type, which consists of a Suit enumeration value (Clubs, Diamonds, Hearts, Spades) and a Rank enumeration value (Ace, Two, Three, …, Jack, Queen, King).",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "code" : [
+            "public enum Rank: Int {",
+            "    case two = 2",
+            "    case three, four, five, six, seven, eight, nine, ten",
+            "    case jack, queen, king, ace",
+            "}",
+            "",
+            "public enum Suit: String {",
+            "    case spades, hearts, diamonds, clubs",
+            "}",
+            "",
+            "public struct PlayingCard {",
+            "    let rank: Rank",
+            "    let suit: Suit",
+            "}"
+          ],
+          "syntax" : "swift",
+          "type" : "codeListing"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "By convention, a target includes any source files located in the ",
+              "type" : "text"
+            },
+            {
+              "code" : "Sources\/<target-name>",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " directory.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "code" : [
+            "example-package-playingcard",
+            "├── Sources",
+            "│   └── PlayingCard",
+            "│       ├── PlayingCard.swift",
+            "│       ├── Rank.swift",
+            "│       └── Suit.swift",
+            "└── Package.swift"
+          ],
+          "syntax" : null,
+          "type" : "codeListing"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "Because the PlayingCard target does not produce an executable, it can be described as a library.",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "A library is a target that builds a module which can be imported by other packages.",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "By default, a library module exposes all of the public types and methods declared in source code located in the ",
+              "type" : "text"
+            },
+            {
+              "code" : "Sources\/<target-name>",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " directory.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "When creating a library package intended for use as a dependency in other projects, the ",
+              "type" : "text"
+            },
+            {
+              "code" : "Package.swift",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " manifest resides at the top level\/root of the package directory structure.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "Run swift build to start the Swift build process.",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "If everything worked correctly, it compiles the Swift module for PlayingCard.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "The complete code for the PlayingCard package can be found at ",
+                  "type" : "text"
+                },
+                {
+                  "identifier" : "https:\/\/github.com\/apple\/example-package-playingcard",
+                  "isActive" : true,
+                  "overridingTitle" : "https:\/\/github.com\/apple\/example-package-playingcard",
+                  "overridingTitleInlineContent" : [
+                    {
+                      "text" : "https:\/\/github.com\/apple\/example-package-playingcard",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "reference"
+                },
+                {
+                  "text" : ".",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "Note",
+          "style" : "note",
+          "type" : "aside"
+        },
+        {
+          "anchor" : "Importing-Dependencies",
+          "level" : 3,
+          "text" : "Importing Dependencies",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "The ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "https:\/\/github.com\/apple\/example-package-playingcard.git",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : " depends in the previous package: It defines a Deck type.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "To use the PlayingCards module, the DeckOfPlayingCards package declares the package as a dependency in its ",
+              "type" : "text"
+            },
+            {
+              "code" : "Package.swift",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " manifest file.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "code" : [
+            "\/\/ swift-tools-version:5.10",
+            "import PackageDescription",
+            "",
+            "let package = Package(",
+            "    name: \"DeckOfPlayingCards\",",
+            "    products: [",
+            "        .library(name: \"DeckOfPlayingCards\",",
+            "                 targets: [\"DeckOfPlayingCards\"]),",
+            "    ],",
+            "    dependencies: [",
+            "        .package(",
+            "            url: \"https:\/\/github.com\/apple\/example-package-playingcard.git\",",
+            "            from: \"3.0.0\"),",
+            "    ],",
+            "    targets: [",
+            "        .target(",
+            "            name: \"DeckOfPlayingCards\",",
+            "            dependencies: [",
+            "                .product(name: \"PlayingCard\",",
+            "                         package: \"example-package-playingcard\")",
+            "            ]),",
+            "        .testTarget(",
+            "            name: \"DeckOfPlayingCardsTests\",",
+            "            dependencies: [",
+            "                .target(name: \"DeckOfPlayingCards\")",
+            "            ]),",
+            "    ]",
+            ")"
+          ],
+          "syntax" : "swift",
+          "type" : "codeListing"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "Each dependency specifies a source URL and version requirements.",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "The source URL is a URL accessible to the current user that resolves to a Git repository.",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "The package manager uses the version requirements, which follow Semantic Versioning (SemVer) conventions, to determine which Git tag to check out and use to build the dependency.",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "The requirement for the PlayingCard dependency uses the most recent version with a major version equal to 3.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "When you run the swift build command, the Package Manager downloads all of the dependencies, compiles them, and links them to the package module.",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "This allows DeckOfPlayingCards to access the public members of its dependent modules with import statements.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "You can see the downloaded sources in the ",
+              "type" : "text"
+            },
+            {
+              "code" : ".build\/checkouts",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " directory at the root of your project, and intermediate build products in the ",
+              "type" : "text"
+            },
+            {
+              "code" : ".build",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " directory at the root of your project.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "The complete code for the DeckOfPlayingCards package can be found at ",
+                  "type" : "text"
+                },
+                {
+                  "identifier" : "https:\/\/github.com\/apple\/example-package-deckofplayingcards",
+                  "isActive" : true,
+                  "overridingTitle" : "https:\/\/github.com\/apple\/example-package-deckofplayingcards",
+                  "overridingTitleInlineContent" : [
+                    {
+                      "text" : "https:\/\/github.com\/apple\/example-package-deckofplayingcards",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "reference"
+                },
+                {
+                  "text" : ".",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "Note",
+          "style" : "note",
+          "type" : "aside"
+        },
+        {
+          "anchor" : "Resolving-transitive-dependencies",
+          "level" : 3,
+          "text" : "Resolving transitive dependencies",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "With everything else in place, now you can build the Dealer executable.",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "The Dealer executable depends on the ",
+              "type" : "text"
+            },
+            {
+              "code" : "DeckOfPlayingCards",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " package, which in turn depends on the ",
+              "type" : "text"
+            },
+            {
+              "code" : "PlayingCard",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " package.",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "However, because the package manager automatically resolves transitive dependencies, you only need to declare the ",
+              "type" : "text"
+            },
+            {
+              "code" : "DeckOfPlayingCards",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " package as a dependency.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "code" : [
+            "\/\/ swift-tools-version:5.10",
+            "",
+            "import PackageDescription",
+            "",
+            "let package = Package(",
+            "    name: \"dealer\",",
+            "    platforms: [",
+            "        .macOS(.v11)",
+            "    ],",
+            "    products: [",
+            "        .executable(name: \"dealer\",",
+            "                    targets: [\"dealer\"]),",
+            "    ],",
+            "    dependencies: [",
+            "        .package(",
+            "            url: \"https:\/\/github.com\/apple\/example-package-deckofplayingcards.git\",",
+            "            from: \"3.0.0\"),",
+            "        .package(",
+            "            url: \"https:\/\/github.com\/apple\/swift-argument-parser.git\",",
+            "            from: \"0.4.4\"),",
+            "    ],",
+            "    targets: [",
+            "        .executableTarget(",
+            "            name: \"dealer\",",
+            "            dependencies: [",
+            "                .product(name: \"DeckOfPlayingCards\",",
+            "                         package: \"example-package-deckofplayingcards\"),",
+            "                .product(name: \"ArgumentParser\",",
+            "                         package: \"swift-argument-parser\")",
+            "            ]),",
+            "        .testTarget(",
+            "            name: \"DealerTests\",",
+            "            dependencies: [",
+            "                .byName(name: \"dealer\")",
+            "            ]),",
+            "    ]",
+            ")",
+            ""
+          ],
+          "syntax" : "swift",
+          "type" : "codeListing"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "Swift requires that a source file imports the modules for any types that are referenced in code.",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "In the Dealer module’s ",
+              "type" : "text"
+            },
+            {
+              "code" : "Deal.swift",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " file, the code imports ",
+              "type" : "text"
+            },
+            {
+              "code" : "DeckOfPlayingCards",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " and ",
+              "type" : "text"
+            },
+            {
+              "code" : "PlayingCard",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " to use types from each.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "code" : [
+            "import DeckOfPlayingCards",
+            "",
+            "var deck = Deck.standard52CardDeck()",
+            "deck.shuffle()",
+            "",
+            "for count in counts {",
+            "    var cards: [PlayingCard] = []",
+            "",
+            "    for _ in 0..<count {",
+            "        guard let card = deck.deal() else {",
+            "            Self.exit(withError: Error.notEnoughCards)",
+            "        }",
+            "",
+            "        cards.append(card)",
+            "    }",
+            "",
+            "    print(cards.map(\\.description).joined(separator: \"\\t\"))",
+            "}"
+          ],
+          "syntax" : "swift",
+          "type" : "codeListing"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "Running the ",
+              "type" : "text"
+            },
+            {
+              "code" : "swift build",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " command compiles and produces the ",
+              "type" : "text"
+            },
+            {
+              "code" : "Dealer",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " executable, which you run from the ",
+              "type" : "text"
+            },
+            {
+              "code" : ".build\/debug",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " directory.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "code" : [
+            "$ swift build",
+            "$ .build\/debug\/Dealer 5",
+            "♠︎ 6    ♡ 4    ♣︎ 4    ♡ A    ♡ K"
+          ],
+          "syntax" : "bash",
+          "type" : "codeListing"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "You can build and run the complete example by downloading the source code of the Dealer project from GitHub and running the following commands:",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "code" : [
+            "$ git clone https:\/\/github.com\/apple\/example-package-dealer.git",
+            "$ cd example-package-dealer",
+            "$ swift run dealer <count>"
+          ],
+          "syntax" : "bash",
+          "type" : "codeListing"
+        }
+      ],
+      "kind" : "content"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "seeAlsoSections" : [
+    {
+      "anchor" : "Essentials",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/IntroducingPackages",
+        "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/PackageSecurity"
+      ],
+      "title" : "Essentials"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/packagemanagerdocs\/gettingstarted"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://PackageManagerDocs/documentation/PackageManagerDocs": {
+  "abstract" : [
+    {
+      "text" : "Organize, manage, and edit Swift packages.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Swift Package Manager",
+  "type" : "topic",
+  "url" : "\/documentation\/packagemanagerdocs"
+},
+"doc://PackageManagerDocs/documentation/PackageManagerDocs/IntroducingPackages": {
+  "abstract" : [
+    {
+      "text" : "Learn to create and use a Swift package.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/IntroducingPackages",
+  "kind" : "article",
+  "role" : "article",
+  "title" : "Introducing Packages",
+  "type" : "topic",
+  "url" : "\/documentation\/packagemanagerdocs\/introducingpackages"
+},
+"doc://PackageManagerDocs/documentation/PackageManagerDocs/PackageSecurity": {
+  "abstract" : [
+    {
+      "text" : "Learn about the security features that the package manager implements.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/PackageSecurity",
+  "kind" : "article",
+  "role" : "article",
+  "title" : "Package Security",
+  "type" : "topic",
+  "url" : "\/documentation\/packagemanagerdocs\/packagesecurity"
+},
+"https://github.com/apple/example-package-dealer": {
+  "identifier" : "https:\/\/github.com\/apple\/example-package-dealer",
+  "title" : "Dealer",
+  "titleInlineContent" : [
+    {
+      "text" : "Dealer",
+      "type" : "text"
+    }
+  ],
+  "type" : "link",
+  "url" : "https:\/\/github.com\/apple\/example-package-dealer"
+},
+"https://github.com/apple/example-package-deckofplayingcards": {
+  "identifier" : "https:\/\/github.com\/apple\/example-package-deckofplayingcards",
+  "title" : "DeckOfPlayingCards",
+  "titleInlineContent" : [
+    {
+      "text" : "DeckOfPlayingCards",
+      "type" : "text"
+    }
+  ],
+  "type" : "link",
+  "url" : "https:\/\/github.com\/apple\/example-package-deckofplayingcards"
+},
+"https://github.com/apple/example-package-playingcard": {
+  "identifier" : "https:\/\/github.com\/apple\/example-package-playingcard",
+  "title" : "PlayingCard",
+  "titleInlineContent" : [
+    {
+      "text" : "PlayingCard",
+      "type" : "text"
+    }
+  ],
+  "type" : "link",
+  "url" : "https:\/\/github.com\/apple\/example-package-playingcard"
+},
+"https://github.com/apple/example-package-playingcard.git": {
+  "identifier" : "https:\/\/github.com\/apple\/example-package-playingcard.git",
+  "title" : "DeckOfPlayingCards package",
+  "titleInlineContent" : [
+    {
+      "text" : "DeckOfPlayingCards package",
+      "type" : "text"
+    }
+  ],
+  "type" : "link",
+  "url" : "https:\/\/github.com\/apple\/example-package-playingcard.git"
+}
+}
+}

@@ -1,0 +1,3162 @@
+[
+  {
+    "abstract" : [
+      {
+        "text" : "Interact with package registry and manage related configuration.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.article",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs\/swiftpackageregistrycommands",
+    "platforms" : [
+      {
+        "beta" : false,
+        "introducedAt" : "5.9",
+        "name" : "Swift"
+      }
+    ],
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/SwiftPackageRegistryCommands",
+    "references" : [
+      {
+        "alt" : null,
+        "identifier" : "command-icon.svg",
+        "type" : "image",
+        "variants" : [
+          {
+            "traits" : [
+              "1x",
+              "light"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon.svg"
+          },
+          {
+            "traits" : [
+              "1x",
+              "dark"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon~dark.svg"
+          }
+        ]
+      }
+    ],
+    "title" : "swift package-registry",
+    "topicImages" : [
+      {
+        "identifier" : "command-icon.svg",
+        "type" : "icon"
+      }
+    ]
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Understand dependency failure scenarios.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.article",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs\/resolvingdependencyfailures",
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/ResolvingDependencyFailures",
+    "title" : "Resolving package dependency failures"
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Interact with package collections.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.article",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs\/swiftpackagecollectioncommands",
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/SwiftPackageCollectionCommands",
+    "references" : [
+      {
+        "alt" : null,
+        "identifier" : "command-icon.svg",
+        "type" : "image",
+        "variants" : [
+          {
+            "traits" : [
+              "1x",
+              "light"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon.svg"
+          },
+          {
+            "traits" : [
+              "1x",
+              "dark"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon~dark.svg"
+          }
+        ]
+      }
+    ],
+    "title" : "swift package-collection",
+    "topicImages" : [
+      {
+        "identifier" : "command-icon.svg",
+        "type" : "icon"
+      }
+    ]
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Coordinate and constrain dependencies for your package.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.article",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs\/resolvingpackageversions",
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/ResolvingPackageVersions",
+    "title" : "Resolving and updating dependencies"
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Configure and use a package registry for Swift Package Manager.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.article",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs\/usingswiftpackageregistry",
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/UsingSwiftPackageRegistry",
+    "title" : "Using a package registry"
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Manages configuration options for installed Swift SDKs.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.article",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs\/sdkconfigure",
+    "platforms" : [
+      {
+        "beta" : false,
+        "introducedAt" : "6.1",
+        "name" : "Swift"
+      }
+    ],
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/SDKConfigure",
+    "references" : [
+      {
+        "alt" : null,
+        "identifier" : "command-icon.svg",
+        "type" : "image",
+        "variants" : [
+          {
+            "traits" : [
+              "1x",
+              "light"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon.svg"
+          },
+          {
+            "traits" : [
+              "1x",
+              "dark"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon~dark.svg"
+          }
+        ]
+      }
+    ],
+    "title" : "swift sdk configure",
+    "topicImages" : [
+      {
+        "identifier" : "command-icon.svg",
+        "type" : "icon"
+      }
+    ]
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Delete build artifacts.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.article",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs\/packageclean",
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/PackageClean",
+    "references" : [
+      {
+        "alt" : null,
+        "identifier" : "command-icon.svg",
+        "type" : "image",
+        "variants" : [
+          {
+            "traits" : [
+              "1x",
+              "light"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon.svg"
+          },
+          {
+            "traits" : [
+              "1x",
+              "dark"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon~dark.svg"
+          }
+        ]
+      }
+    ],
+    "title" : "swift package clean",
+    "topicImages" : [
+      {
+        "identifier" : "command-icon.svg",
+        "type" : "icon"
+      }
+    ]
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Dump symbol graphs.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.article",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs\/packagedumpsymbolgraph",
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/PackageDumpSymbolGraph",
+    "references" : [
+      {
+        "alt" : null,
+        "identifier" : "command-icon.svg",
+        "type" : "image",
+        "variants" : [
+          {
+            "traits" : [
+              "1x",
+              "light"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon.svg"
+          },
+          {
+            "traits" : [
+              "1x",
+              "dark"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon~dark.svg"
+          }
+        ]
+      }
+    ],
+    "title" : "swift package dump-symbol-graph",
+    "topicImages" : [
+      {
+        "identifier" : "command-icon.svg",
+        "type" : "icon"
+      }
+    ]
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Offers the ability to install executable products of the current package.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.article",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs\/packageexperimentalinstall",
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/PackageExperimentalInstall",
+    "references" : [
+      {
+        "alt" : null,
+        "identifier" : "command-icon.svg",
+        "type" : "image",
+        "variants" : [
+          {
+            "traits" : [
+              "1x",
+              "light"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon.svg"
+          },
+          {
+            "traits" : [
+              "1x",
+              "dark"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon~dark.svg"
+          }
+        ]
+      }
+    ],
+    "title" : "swift package experimental-install",
+    "topicImages" : [
+      {
+        "identifier" : "command-icon.svg",
+        "type" : "icon"
+      }
+    ]
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Build and run an executable product.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.article",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs\/swiftrun",
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/SwiftRun",
+    "references" : [
+      {
+        "alt" : null,
+        "identifier" : "command-icon.svg",
+        "type" : "image",
+        "variants" : [
+          {
+            "traits" : [
+              "1x",
+              "light"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon.svg"
+          },
+          {
+            "traits" : [
+              "1x",
+              "dark"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon~dark.svg"
+          }
+        ]
+      }
+    ],
+    "title" : "swift run",
+    "topicImages" : [
+      {
+        "identifier" : "command-icon.svg",
+        "type" : "icon"
+      }
+    ]
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Add a new setting to the manifest.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.article",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs\/packageaddsetting",
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/PackageAddSetting",
+    "references" : [
+      {
+        "alt" : null,
+        "identifier" : "command-icon.svg",
+        "type" : "image",
+        "variants" : [
+          {
+            "traits" : [
+              "1x",
+              "light"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon.svg"
+          },
+          {
+            "traits" : [
+              "1x",
+              "dark"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon~dark.svg"
+          }
+        ]
+      }
+    ],
+    "title" : "swift package add-setting",
+    "topicImages" : [
+      {
+        "identifier" : "command-icon.svg",
+        "type" : "icon"
+      }
+    ]
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Reset the complete cache\/build directory.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.article",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs\/packagereset",
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/PackageReset",
+    "references" : [
+      {
+        "alt" : null,
+        "identifier" : "command-icon.svg",
+        "type" : "image",
+        "variants" : [
+          {
+            "traits" : [
+              "1x",
+              "light"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon.svg"
+          },
+          {
+            "traits" : [
+              "1x",
+              "dark"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon~dark.svg"
+          }
+        ]
+      }
+    ],
+    "title" : "swift package reset",
+    "topicImages" : [
+      {
+        "identifier" : "command-icon.svg",
+        "type" : "icon"
+      }
+    ]
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Learn to create, publish and use Swift package collections.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.article",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs\/packagecollections",
+    "platforms" : [
+      {
+        "beta" : false,
+        "introducedAt" : "5.5",
+        "name" : "Swift"
+      }
+    ],
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/PackageCollections",
+    "title" : "Package Collections"
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Print mirror configuration for the given package dependency.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.article",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs\/packageconfiggetmirror",
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/PackageConfigGetMirror",
+    "references" : [
+      {
+        "alt" : null,
+        "identifier" : "command-icon.svg",
+        "type" : "image",
+        "variants" : [
+          {
+            "traits" : [
+              "1x",
+              "light"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon.svg"
+          },
+          {
+            "traits" : [
+              "1x",
+              "dark"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon~dark.svg"
+          }
+        ]
+      }
+    ],
+    "title" : "swift package config get-mirror",
+    "topicImages" : [
+      {
+        "identifier" : "command-icon.svg",
+        "type" : "icon"
+      }
+    ]
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Migrate a package or its individual targets to use the given set of features.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.article",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs\/packagemigrate",
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/PackageMigrate",
+    "references" : [
+      {
+        "alt" : null,
+        "identifier" : "command-icon.svg",
+        "type" : "image",
+        "variants" : [
+          {
+            "traits" : [
+              "1x",
+              "light"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon.svg"
+          },
+          {
+            "traits" : [
+              "1x",
+              "dark"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon~dark.svg"
+          }
+        ]
+      }
+    ],
+    "title" : "swift package migrate",
+    "topicImages" : [
+      {
+        "identifier" : "command-icon.svg",
+        "type" : "icon"
+      }
+    ]
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Purge the global repository cache.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.article",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs\/packagepurgecache",
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/PackagePurgeCache",
+    "references" : [
+      {
+        "alt" : null,
+        "identifier" : "command-icon.svg",
+        "type" : "image",
+        "variants" : [
+          {
+            "traits" : [
+              "1x",
+              "light"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon.svg"
+          },
+          {
+            "traits" : [
+              "1x",
+              "dark"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon~dark.svg"
+          }
+        ]
+      }
+    ],
+    "title" : "swift package purge-cache",
+    "topicImages" : [
+      {
+        "identifier" : "command-icon.svg",
+        "type" : "icon"
+      }
+    ]
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Command to generate shell completions.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.article",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs\/packagecompletiontool",
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/PackageCompletionTool",
+    "references" : [
+      {
+        "alt" : null,
+        "identifier" : "command-icon.svg",
+        "type" : "image",
+        "variants" : [
+          {
+            "traits" : [
+              "1x",
+              "light"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon.svg"
+          },
+          {
+            "traits" : [
+              "1x",
+              "dark"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon~dark.svg"
+          }
+        ]
+      }
+    ],
+    "title" : "swift package completion-tool",
+    "topicImages" : [
+      {
+        "identifier" : "command-icon.svg",
+        "type" : "icon"
+      }
+    ]
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Include C language code as a target in your Swift package.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.article",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs\/creatingclanguagetargets",
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/CreatingCLanguageTargets",
+    "title" : "Creating C language targets"
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Publish to a registry.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.article",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs\/packageregistrypublish",
+    "platforms" : [
+      {
+        "beta" : false,
+        "introducedAt" : "5.9",
+        "name" : "Swift"
+      }
+    ],
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/PackageRegistryPublish",
+    "references" : [
+      {
+        "alt" : null,
+        "identifier" : "command-icon.svg",
+        "type" : "image",
+        "variants" : [
+          {
+            "traits" : [
+              "1x",
+              "light"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon.svg"
+          },
+          {
+            "traits" : [
+              "1x",
+              "dark"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon~dark.svg"
+          }
+        ]
+      }
+    ],
+    "title" : "swift package-registry publish",
+    "topicImages" : [
+      {
+        "identifier" : "command-icon.svg",
+        "type" : "icon"
+      }
+    ]
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Extend package manager functionality with build or command plugins.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.article",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs\/plugins",
+    "platforms" : [
+      {
+        "beta" : false,
+        "introducedAt" : "5.6",
+        "name" : "Swift"
+      }
+    ],
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/Plugins",
+    "title" : "Plugins"
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Add resource files to your Swift package and access them in your code.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.article",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs\/bundlingresources",
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/BundlingResources",
+    "title" : "Bundling resources with a Swift package"
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Create reusable code, organize it in a lightweight way, and share it across your projects and with other developers.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.article",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs\/packagedescription",
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/PackageDescription",
+    "title" : "Package Description"
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Set a custom registry.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.article",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs\/packageregistryset",
+    "platforms" : [
+      {
+        "beta" : false,
+        "introducedAt" : "5.9",
+        "name" : "Swift"
+      }
+    ],
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/PackageRegistrySet",
+    "references" : [
+      {
+        "alt" : null,
+        "identifier" : "command-icon.svg",
+        "type" : "image",
+        "variants" : [
+          {
+            "traits" : [
+              "1x",
+              "light"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon.svg"
+          },
+          {
+            "traits" : [
+              "1x",
+              "dark"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon~dark.svg"
+          }
+        ]
+      }
+    ],
+    "title" : "swift package-registry set",
+    "topicImages" : [
+      {
+        "identifier" : "command-icon.svg",
+        "type" : "icon"
+      }
+    ]
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Temporarily switch a remote dependency to local in order to edit the dependency.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.article",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs\/editingdependencypackage",
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/EditingDependencyPackage",
+    "title" : "Editing a remote dependency used in a Swift package"
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Learn to create and use a Swift package.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.article",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs\/introducingpackages",
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/IntroducingPackages",
+    "title" : "Introducing Packages"
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Get metadata for a collection or a package included in an imported collection.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.article",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs\/packagecollectiondescribe",
+    "platforms" : [
+      {
+        "beta" : false,
+        "introducedAt" : "5.5",
+        "name" : "Swift"
+      }
+    ],
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/PackageCollectionDescribe",
+    "references" : [
+      {
+        "alt" : null,
+        "identifier" : "command-icon.svg",
+        "type" : "image",
+        "variants" : [
+          {
+            "traits" : [
+              "1x",
+              "light"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon.svg"
+          },
+          {
+            "traits" : [
+              "1x",
+              "dark"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon~dark.svg"
+          }
+        ]
+      }
+    ],
+    "title" : "swift package-collection describe",
+    "topicImages" : [
+      {
+        "identifier" : "command-icon.svg",
+        "type" : "icon"
+      }
+    ]
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Remove a package from editable mode.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.article",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs\/packageunedit",
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/PackageUnedit",
+    "references" : [
+      {
+        "alt" : null,
+        "identifier" : "command-icon.svg",
+        "type" : "image",
+        "variants" : [
+          {
+            "traits" : [
+              "1x",
+              "light"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon.svg"
+          },
+          {
+            "traits" : [
+              "1x",
+              "dark"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon~dark.svg"
+          }
+        ]
+      }
+    ],
+    "title" : "swift package unedit",
+    "topicImages" : [
+      {
+        "identifier" : "command-icon.svg",
+        "type" : "icon"
+      }
+    ]
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Sets configuration options for installed Swift SDKs.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.article",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs\/sdkconfigurationset",
+    "platforms" : [
+      {
+        "beta" : false,
+        "introducedAt" : "6.1",
+        "name" : "Swift"
+      }
+    ],
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/SDKConfigurationSet",
+    "references" : [
+      {
+        "alt" : null,
+        "identifier" : "command-icon.svg",
+        "type" : "image",
+        "variants" : [
+          {
+            "traits" : [
+              "1x",
+              "light"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon.svg"
+          },
+          {
+            "traits" : [
+              "1x",
+              "dark"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon~dark.svg"
+          }
+        ]
+      }
+    ],
+    "title" : "swift sdk configuration set",
+    "topicImages" : [
+      {
+        "identifier" : "command-icon.svg",
+        "type" : "icon"
+      }
+    ]
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "List the available executables from this package.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.article",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs\/packageshowexecutables",
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/PackageShowExecutables",
+    "references" : [
+      {
+        "alt" : null,
+        "identifier" : "command-icon.svg",
+        "type" : "image",
+        "variants" : [
+          {
+            "traits" : [
+              "1x",
+              "light"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon.svg"
+          },
+          {
+            "traits" : [
+              "1x",
+              "dark"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon~dark.svg"
+          }
+        ]
+      }
+    ],
+    "title" : "swift package show-executables",
+    "topicImages" : [
+      {
+        "identifier" : "command-icon.svg",
+        "type" : "icon"
+      }
+    ]
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Create aliased names for modules to avoid collisions between targets in your package or its dependencies.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.article",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs\/modulealiasing",
+    "platforms" : [
+      {
+        "beta" : false,
+        "introducedAt" : "5.7",
+        "name" : "Swift"
+      }
+    ],
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/ModuleAliasing",
+    "title" : "Module Aliasing"
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Resets configuration properties currently applied to a given Swift SDK and target triple. If no specific property is specified, all of them are reset for the Swift SDK.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.article",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs\/sdkconfigurationreset",
+    "platforms" : [
+      {
+        "beta" : false,
+        "introducedAt" : "6.1",
+        "name" : "Swift"
+      }
+    ],
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/SDKConfigurationReset",
+    "references" : [
+      {
+        "alt" : null,
+        "identifier" : "command-icon.svg",
+        "type" : "image",
+        "variants" : [
+          {
+            "traits" : [
+              "1x",
+              "light"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon.svg"
+          },
+          {
+            "traits" : [
+              "1x",
+              "dark"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon~dark.svg"
+          }
+        ]
+      }
+    ],
+    "title" : "swift sdk configuration reset",
+    "topicImages" : [
+      {
+        "identifier" : "command-icon.svg",
+        "type" : "icon"
+      }
+    ]
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Create a command plugin to provide commands that extend the package manager.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.article",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs\/writingcommandplugin",
+    "platforms" : [
+      {
+        "beta" : false,
+        "introducedAt" : "5.6",
+        "name" : "Swift"
+      }
+    ],
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/WritingCommandPlugin",
+    "title" : "Writing a command plugin"
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Learn to create and use Swift packages.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.article",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs\/gettingstarted",
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/GettingStarted",
+    "title" : "Getting Started"
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Add a new target dependency to the manifest.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.article",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs\/packageaddtargetdependency",
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/PackageAddTargetDependency",
+    "references" : [
+      {
+        "alt" : null,
+        "identifier" : "command-icon.svg",
+        "type" : "image",
+        "variants" : [
+          {
+            "traits" : [
+              "1x",
+              "light"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon.svg"
+          },
+          {
+            "traits" : [
+              "1x",
+              "dark"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon~dark.svg"
+          }
+        ]
+      }
+    ],
+    "title" : "swift package add-target-dependency",
+    "topicImages" : [
+      {
+        "identifier" : "command-icon.svg",
+        "type" : "icon"
+      }
+    ]
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Manipulate tools version of the current package.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.article",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs\/packagetoolsversion",
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/PackageToolsVersion",
+    "references" : [
+      {
+        "alt" : null,
+        "identifier" : "command-icon.svg",
+        "type" : "image",
+        "variants" : [
+          {
+            "traits" : [
+              "1x",
+              "light"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon.svg"
+          },
+          {
+            "traits" : [
+              "1x",
+              "dark"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon~dark.svg"
+          }
+        ]
+      }
+    ],
+    "title" : "swift package tools-version",
+    "topicImages" : [
+      {
+        "identifier" : "command-icon.svg",
+        "type" : "icon"
+      }
+    ]
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Define the minimum version of the swift compiler required for your package.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.article",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs\/settingswifttoolsversion",
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/SettingSwiftToolsVersion",
+    "title" : "Setting the Swift tools version"
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Offers the ability to uninstall executable products previously installed by ",
+        "type" : "text"
+      },
+      {
+        "code" : "swift package experimental-install",
+        "type" : "codeVoice"
+      },
+      {
+        "text" : ".",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.article",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs\/packageexperimentaluninstall",
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/PackageExperimentalUninstall",
+    "references" : [
+      {
+        "alt" : null,
+        "identifier" : "command-icon.svg",
+        "type" : "image",
+        "variants" : [
+          {
+            "traits" : [
+              "1x",
+              "light"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon.svg"
+          },
+          {
+            "traits" : [
+              "1x",
+              "dark"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon~dark.svg"
+          }
+        ]
+      }
+    ],
+    "title" : "swift package experimental-uninstall",
+    "topicImages" : [
+      {
+        "identifier" : "command-icon.svg",
+        "type" : "icon"
+      }
+    ]
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Learn about the security features that the package manager implements.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.article",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs\/packagesecurity",
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/PackageSecurity",
+    "title" : "Package Security"
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Log out from a registry.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.article",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs\/packageregistrylogout",
+    "platforms" : [
+      {
+        "beta" : false,
+        "introducedAt" : "5.9",
+        "name" : "Swift"
+      }
+    ],
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/PackageRegistryLogout",
+    "references" : [
+      {
+        "alt" : null,
+        "identifier" : "command-icon.svg",
+        "type" : "image",
+        "variants" : [
+          {
+            "traits" : [
+              "1x",
+              "light"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon.svg"
+          },
+          {
+            "traits" : [
+              "1x",
+              "dark"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon~dark.svg"
+          }
+        ]
+      }
+    ],
+    "title" : "swift package-registry logout",
+    "topicImages" : [
+      {
+        "identifier" : "command-icon.svg",
+        "type" : "icon"
+      }
+    ]
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "List configured collections.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.article",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs\/packagecollectionlist",
+    "platforms" : [
+      {
+        "beta" : false,
+        "introducedAt" : "5.5",
+        "name" : "Swift"
+      }
+    ],
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/PackageCollectionList",
+    "references" : [
+      {
+        "alt" : null,
+        "identifier" : "command-icon.svg",
+        "type" : "image",
+        "variants" : [
+          {
+            "traits" : [
+              "1x",
+              "light"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon.svg"
+          },
+          {
+            "traits" : [
+              "1x",
+              "dark"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon~dark.svg"
+          }
+        ]
+      }
+    ],
+    "title" : "swift package-collection list",
+    "topicImages" : [
+      {
+        "identifier" : "command-icon.svg",
+        "type" : "icon"
+      }
+    ]
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Create a build tool to process or generate files.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.article",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs\/writingbuildtoolplugin",
+    "platforms" : [
+      {
+        "beta" : false,
+        "introducedAt" : "5.6",
+        "name" : "Swift"
+      }
+    ],
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/WritingBuildToolPlugin",
+    "title" : "Writing a build tool plugin"
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Update package dependencies.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.article",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs\/packageupdate",
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/PackageUpdate",
+    "references" : [
+      {
+        "alt" : null,
+        "identifier" : "command-icon.svg",
+        "type" : "image",
+        "variants" : [
+          {
+            "traits" : [
+              "1x",
+              "light"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon.svg"
+          },
+          {
+            "traits" : [
+              "1x",
+              "dark"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon~dark.svg"
+          }
+        ]
+      }
+    ],
+    "title" : "swift package update",
+    "topicImages" : [
+      {
+        "identifier" : "command-icon.svg",
+        "type" : "icon"
+      }
+    ]
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Share a specific version of your package.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.article",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs\/releasingpublishingapackage",
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/ReleasingPublishingAPackage",
+    "title" : "Releasing and publishing a Swift package"
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Extend the package manager with a build plugin from another package.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.article",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs\/enablebuildplugin",
+    "platforms" : [
+      {
+        "beta" : false,
+        "introducedAt" : "5.6",
+        "name" : "Swift"
+      }
+    ],
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/EnableBuildPlugin",
+    "title" : "Enable a build plugin"
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Include Swift Package Manager as a dependency in your Swift package.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.article",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs\/swiftpmasalibrary",
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/SwiftPMAsALibrary",
+    "title" : "Swift Package Manager as a library"
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Define the location for the library and provide module map to expose C headers to Swift.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.article",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs\/addingsystemlibrarydependency",
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/AddingSystemLibraryDependency",
+    "title" : "Adding a dependency on a system library."
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Print a list of IDs of available Swift SDKs available on the filesystem.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.article",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs\/sdklist",
+    "platforms" : [
+      {
+        "beta" : false,
+        "introducedAt" : "6.1",
+        "name" : "Swift"
+      }
+    ],
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/SDKList",
+    "references" : [
+      {
+        "alt" : null,
+        "identifier" : "command-icon.svg",
+        "type" : "image",
+        "variants" : [
+          {
+            "traits" : [
+              "1x",
+              "light"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon.svg"
+          },
+          {
+            "traits" : [
+              "1x",
+              "dark"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon~dark.svg"
+          }
+        ]
+      }
+    ],
+    "title" : "swift sdk list",
+    "topicImages" : [
+      {
+        "identifier" : "command-icon.svg",
+        "type" : "icon"
+      }
+    ]
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Customize your shell to automatically complete swift package commands.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.article",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs\/usingshellcompletion",
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/UsingShellCompletion",
+    "title" : "Using shell completion scripts"
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Remove a configured collection.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.article",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs\/packagecollectionremove",
+    "platforms" : [
+      {
+        "beta" : false,
+        "introducedAt" : "5.5",
+        "name" : "Swift"
+      }
+    ],
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/PackageCollectionRemove",
+    "references" : [
+      {
+        "alt" : null,
+        "identifier" : "command-icon.svg",
+        "type" : "image",
+        "variants" : [
+          {
+            "traits" : [
+              "1x",
+              "light"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon.svg"
+          },
+          {
+            "traits" : [
+              "1x",
+              "dark"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon~dark.svg"
+          }
+        ]
+      }
+    ],
+    "title" : "swift package-collection remove",
+    "topicImages" : [
+      {
+        "identifier" : "command-icon.svg",
+        "type" : "icon"
+      }
+    ]
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Build Swift packages with an existing continuous integration setup and prepare apps that consume package dependencies within an existing CI pipeline.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.article",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs\/continuousintegration",
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/ContinuousIntegration",
+    "title" : "Continuous Integration Workflows"
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Describe the current package.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.article",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs\/packagedescribe",
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/PackageDescribe",
+    "references" : [
+      {
+        "alt" : null,
+        "identifier" : "command-icon.svg",
+        "type" : "image",
+        "variants" : [
+          {
+            "traits" : [
+              "1x",
+              "light"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon.svg"
+          },
+          {
+            "traits" : [
+              "1x",
+              "dark"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon~dark.svg"
+          }
+        ]
+      }
+    ],
+    "title" : "swift package describe",
+    "topicImages" : [
+      {
+        "identifier" : "command-icon.svg",
+        "type" : "icon"
+      }
+    ]
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Search for packages by keywords or module names.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.article",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs\/packagecollectionsearch",
+    "platforms" : [
+      {
+        "beta" : false,
+        "introducedAt" : "5.5",
+        "name" : "Swift"
+      }
+    ],
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/PackageCollectionSearch",
+    "references" : [
+      {
+        "alt" : null,
+        "identifier" : "command-icon.svg",
+        "type" : "image",
+        "variants" : [
+          {
+            "traits" : [
+              "1x",
+              "light"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon.svg"
+          },
+          {
+            "traits" : [
+              "1x",
+              "dark"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon~dark.svg"
+          }
+        ]
+      }
+    ],
+    "title" : "swift package-collection search",
+    "topicImages" : [
+      {
+        "identifier" : "command-icon.svg",
+        "type" : "icon"
+      }
+    ]
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Extend package manager commands with a command plugin from another package.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.article",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs\/enablecommandplugin",
+    "platforms" : [
+      {
+        "beta" : false,
+        "introducedAt" : "5.6",
+        "name" : "Swift"
+      }
+    ],
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/EnableCommandPlugin",
+    "title" : "Enable a command plugin"
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Print the resolved dependency graph.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.article",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs\/packageshowdependencies",
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/PackageShowDependencies",
+    "references" : [
+      {
+        "alt" : null,
+        "identifier" : "command-icon.svg",
+        "type" : "image",
+        "variants" : [
+          {
+            "traits" : [
+              "1x",
+              "light"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon.svg"
+          },
+          {
+            "traits" : [
+              "1x",
+              "dark"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon~dark.svg"
+          }
+        ]
+      }
+    ],
+    "title" : "swift package show-dependencies",
+    "topicImages" : [
+      {
+        "identifier" : "command-icon.svg",
+        "type" : "icon"
+      }
+    ]
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Bundle executable or shareable code into a standalone Swift package.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.article",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs\/creatingswiftpackage",
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/CreatingSwiftPackage",
+    "title" : "Creating a Swift package"
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Remove an existing mirror.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.article",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs\/packageconfigunsetmirror",
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/PackageConfigUnsetMirror",
+    "references" : [
+      {
+        "alt" : null,
+        "identifier" : "command-icon.svg",
+        "type" : "image",
+        "variants" : [
+          {
+            "traits" : [
+              "1x",
+              "light"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon.svg"
+          },
+          {
+            "traits" : [
+              "1x",
+              "dark"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon~dark.svg"
+          }
+        ]
+      }
+    ],
+    "title" : "swift package config unset-mirror",
+    "topicImages" : [
+      {
+        "identifier" : "command-icon.svg",
+        "type" : "icon"
+      }
+    ]
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Prints all configuration properties currently applied to a given Swift SDK and target triple.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.article",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs\/sdkconfigurationshow",
+    "platforms" : [
+      {
+        "beta" : false,
+        "introducedAt" : "6.1",
+        "name" : "Swift"
+      }
+    ],
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/SDKConfigurationShow",
+    "references" : [
+      {
+        "alt" : null,
+        "identifier" : "command-icon.svg",
+        "type" : "image",
+        "variants" : [
+          {
+            "traits" : [
+              "1x",
+              "light"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon.svg"
+          },
+          {
+            "traits" : [
+              "1x",
+              "dark"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon~dark.svg"
+          }
+        ]
+      }
+    ],
+    "title" : "swift sdk configuration show",
+    "topicImages" : [
+      {
+        "identifier" : "command-icon.svg",
+        "type" : "icon"
+      }
+    ]
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Set a mirror for a dependency.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.article",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs\/packageconfigsetmirror",
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/PackageConfigSetMirror",
+    "references" : [
+      {
+        "alt" : null,
+        "identifier" : "command-icon.svg",
+        "type" : "image",
+        "variants" : [
+          {
+            "traits" : [
+              "1x",
+              "light"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon.svg"
+          },
+          {
+            "traits" : [
+              "1x",
+              "dark"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon~dark.svg"
+          }
+        ]
+      }
+    ],
+    "title" : "swift package config set-mirror",
+    "topicImages" : [
+      {
+        "identifier" : "command-icon.svg",
+        "type" : "icon"
+      }
+    ]
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Print parsed Package.swift as JSON.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.article",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs\/packagedumppackage",
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/PackageDumpPackage",
+    "references" : [
+      {
+        "alt" : null,
+        "identifier" : "command-icon.svg",
+        "type" : "image",
+        "variants" : [
+          {
+            "traits" : [
+              "1x",
+              "light"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon.svg"
+          },
+          {
+            "traits" : [
+              "1x",
+              "dark"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon~dark.svg"
+          }
+        ]
+      }
+    ],
+    "title" : "swift package dump-package",
+    "topicImages" : [
+      {
+        "identifier" : "command-icon.svg",
+        "type" : "icon"
+      }
+    ]
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Removes a previously installed Swift SDK bundle from the filesystem.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.article",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs\/sdkremove",
+    "platforms" : [
+      {
+        "beta" : false,
+        "introducedAt" : "6.1",
+        "name" : "Swift"
+      }
+    ],
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/SDKRemove",
+    "references" : [
+      {
+        "alt" : null,
+        "identifier" : "command-icon.svg",
+        "type" : "image",
+        "variants" : [
+          {
+            "traits" : [
+              "1x",
+              "light"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon.svg"
+          },
+          {
+            "traits" : [
+              "1x",
+              "dark"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon~dark.svg"
+          }
+        ]
+      }
+    ],
+    "title" : "swift sdk remove",
+    "topicImages" : [
+      {
+        "identifier" : "command-icon.svg",
+        "type" : "icon"
+      }
+    ]
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Add a new target to the manifest.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.article",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs\/packageaddtarget",
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/PackageAddTarget",
+    "references" : [
+      {
+        "alt" : null,
+        "identifier" : "command-icon.svg",
+        "type" : "image",
+        "variants" : [
+          {
+            "traits" : [
+              "1x",
+              "light"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon.svg"
+          },
+          {
+            "traits" : [
+              "1x",
+              "dark"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon~dark.svg"
+          }
+        ]
+      }
+    ],
+    "title" : "swift package add-target",
+    "topicImages" : [
+      {
+        "identifier" : "command-icon.svg",
+        "type" : "icon"
+      }
+    ]
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Create an Command-line executable package that uses libgit2 as a system library dependency.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.article",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs\/examplesystemlibrarypkgconfig",
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/ExampleSystemLibraryPkgConfig",
+    "title" : "Swift package example that uses system library dependency with pkg-config"
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Remove a configured registry.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.article",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs\/packageregistryunset",
+    "platforms" : [
+      {
+        "beta" : false,
+        "introducedAt" : "5.9",
+        "name" : "Swift"
+      }
+    ],
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/PackageRegistryUnset",
+    "references" : [
+      {
+        "alt" : null,
+        "identifier" : "command-icon.svg",
+        "type" : "image",
+        "variants" : [
+          {
+            "traits" : [
+              "1x",
+              "light"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon.svg"
+          },
+          {
+            "traits" : [
+              "1x",
+              "dark"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon~dark.svg"
+          }
+        ]
+      }
+    ],
+    "title" : "swift package-registry unset",
+    "topicImages" : [
+      {
+        "identifier" : "command-icon.svg",
+        "type" : "icon"
+      }
+    ]
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Installs a given Swift SDK bundle to a location discoverable by SwiftPM.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.article",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs\/sdkinstall",
+    "platforms" : [
+      {
+        "beta" : false,
+        "introducedAt" : "6.1",
+        "name" : "Swift"
+      }
+    ],
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/SDKInstall",
+    "references" : [
+      {
+        "alt" : null,
+        "identifier" : "command-icon.svg",
+        "type" : "image",
+        "variants" : [
+          {
+            "traits" : [
+              "1x",
+              "light"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon.svg"
+          },
+          {
+            "traits" : [
+              "1x",
+              "dark"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon~dark.svg"
+          }
+        ]
+      }
+    ],
+    "title" : "swift sdk install",
+    "topicImages" : [
+      {
+        "identifier" : "command-icon.svg",
+        "type" : "icon"
+      }
+    ]
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Learn about the specification for SwiftPM’s registry service.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.article",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs\/registryserverspecification",
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/RegistryServerSpecification",
+    "title" : "Swift Package Registry Service Specification"
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Build and run tests.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.article",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs\/swifttest",
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/SwiftTest",
+    "references" : [
+      {
+        "alt" : null,
+        "identifier" : "command-icon.svg",
+        "type" : "image",
+        "variants" : [
+          {
+            "traits" : [
+              "1x",
+              "light"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon.svg"
+          },
+          {
+            "traits" : [
+              "1x",
+              "dark"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon~dark.svg"
+          }
+        ]
+      }
+    ],
+    "title" : "swift test",
+    "topicImages" : [
+      {
+        "identifier" : "command-icon.svg",
+        "type" : "icon"
+      }
+    ]
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Create a source archive for the package.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.article",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs\/packagearchivesource",
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/PackageArchiveSource",
+    "references" : [
+      {
+        "alt" : null,
+        "identifier" : "command-icon.svg",
+        "type" : "image",
+        "variants" : [
+          {
+            "traits" : [
+              "1x",
+              "light"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon.svg"
+          },
+          {
+            "traits" : [
+              "1x",
+              "dark"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon~dark.svg"
+          }
+        ]
+      }
+    ],
+    "title" : "swift package archive-source",
+    "topicImages" : [
+      {
+        "identifier" : "command-icon.svg",
+        "type" : "icon"
+      }
+    ]
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Invoke a command plugin or perform other actions on command plugins.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.article",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs\/packageplugin",
+    "platforms" : [
+      {
+        "beta" : false,
+        "introducedAt" : "5.6",
+        "name" : "Swift"
+      }
+    ],
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/PackagePlugin",
+    "references" : [
+      {
+        "alt" : null,
+        "identifier" : "command-icon.svg",
+        "type" : "image",
+        "variants" : [
+          {
+            "traits" : [
+              "1x",
+              "light"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon.svg"
+          },
+          {
+            "traits" : [
+              "1x",
+              "dark"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon~dark.svg"
+          }
+        ]
+      }
+    ],
+    "title" : "swift package plugin",
+    "topicImages" : [
+      {
+        "identifier" : "command-icon.svg",
+        "type" : "icon"
+      }
+    ]
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Provide a package manifest for a specific version of Swift.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.article",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs\/swiftversionspecificpackaging",
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/SwiftVersionSpecificPackaging",
+    "title" : "Packaging based on the version of Swift"
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Subcommands to update and inspect your Swift package.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.article",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs\/swiftpackagecommands",
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/SwiftPackageCommands",
+    "references" : [
+      {
+        "alt" : null,
+        "identifier" : "command-icon.svg",
+        "type" : "image",
+        "variants" : [
+          {
+            "traits" : [
+              "1x",
+              "light"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon.svg"
+          },
+          {
+            "traits" : [
+              "1x",
+              "dark"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon~dark.svg"
+          }
+        ]
+      }
+    ],
+    "title" : "swift package",
+    "topicImages" : [
+      {
+        "identifier" : "command-icon.svg",
+        "type" : "icon"
+      }
+    ]
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Control the build configuration for your app or package.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.article",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs\/usingbuildconfigurations",
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/UsingBuildConfigurations",
+    "title" : "Using build configurations"
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Add a package dependency to the manifest.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.article",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs\/packageadddependency",
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/PackageAddDependency",
+    "references" : [
+      {
+        "alt" : null,
+        "identifier" : "command-icon.svg",
+        "type" : "image",
+        "variants" : [
+          {
+            "traits" : [
+              "1x",
+              "light"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon.svg"
+          },
+          {
+            "traits" : [
+              "1x",
+              "dark"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon~dark.svg"
+          }
+        ]
+      }
+    ],
+    "title" : "swift package add-dependency",
+    "topicImages" : [
+      {
+        "identifier" : "command-icon.svg",
+        "type" : "icon"
+      }
+    ]
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Use other swift packages, system libraries, or binary dependencies in your package.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.article",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs\/addingdependencies",
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/AddingDependencies",
+    "title" : "Adding dependencies to a Swift package"
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Compute the checksum for a binary artifact.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.article",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs\/packagecomputechecksum",
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/PackageComputeChecksum",
+    "references" : [
+      {
+        "alt" : null,
+        "identifier" : "command-icon.svg",
+        "type" : "image",
+        "variants" : [
+          {
+            "traits" : [
+              "1x",
+              "light"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon.svg"
+          },
+          {
+            "traits" : [
+              "1x",
+              "dark"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon~dark.svg"
+          }
+        ]
+      }
+    ],
+    "title" : "swift package compute-checksum",
+    "topicImages" : [
+      {
+        "identifier" : "command-icon.svg",
+        "type" : "icon"
+      }
+    ]
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Build sources into binary products.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.article",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs\/swiftbuild",
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/SwiftBuild",
+    "references" : [
+      {
+        "alt" : null,
+        "identifier" : "command-icon.svg",
+        "type" : "image",
+        "variants" : [
+          {
+            "traits" : [
+              "1x",
+              "light"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon.svg"
+          },
+          {
+            "traits" : [
+              "1x",
+              "dark"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon~dark.svg"
+          }
+        ]
+      }
+    ],
+    "title" : "swift build",
+    "topicImages" : [
+      {
+        "identifier" : "command-icon.svg",
+        "type" : "icon"
+      }
+    ]
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Add a new collection.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.article",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs\/packagecollectionadd",
+    "platforms" : [
+      {
+        "beta" : false,
+        "introducedAt" : "5.5",
+        "name" : "Swift"
+      }
+    ],
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/PackageCollectionAdd",
+    "references" : [
+      {
+        "alt" : null,
+        "identifier" : "command-icon.svg",
+        "type" : "image",
+        "variants" : [
+          {
+            "traits" : [
+              "1x",
+              "light"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon.svg"
+          },
+          {
+            "traits" : [
+              "1x",
+              "dark"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon~dark.svg"
+          }
+        ]
+      }
+    ],
+    "title" : "swift package-collection add",
+    "topicImages" : [
+      {
+        "identifier" : "command-icon.svg",
+        "type" : "icon"
+      }
+    ]
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Perform operations on Swift SDKs.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.article",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs\/swiftsdkcommands",
+    "platforms" : [
+      {
+        "beta" : false,
+        "introducedAt" : "6.1",
+        "name" : "Swift"
+      }
+    ],
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/SwiftSDKCommands",
+    "references" : [
+      {
+        "alt" : null,
+        "identifier" : "command-icon.svg",
+        "type" : "image",
+        "variants" : [
+          {
+            "traits" : [
+              "1x",
+              "light"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon.svg"
+          },
+          {
+            "traits" : [
+              "1x",
+              "dark"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon~dark.svg"
+          }
+        ]
+      }
+    ],
+    "title" : "swift sdk",
+    "topicImages" : [
+      {
+        "identifier" : "command-icon.svg",
+        "type" : "icon"
+      }
+    ]
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Refresh configured collections.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.article",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs\/packagecollectionrefresh",
+    "platforms" : [
+      {
+        "beta" : false,
+        "introducedAt" : "5.5",
+        "name" : "Swift"
+      }
+    ],
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/PackageCollectionRefresh",
+    "references" : [
+      {
+        "alt" : null,
+        "identifier" : "command-icon.svg",
+        "type" : "image",
+        "variants" : [
+          {
+            "traits" : [
+              "1x",
+              "light"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon.svg"
+          },
+          {
+            "traits" : [
+              "1x",
+              "dark"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon~dark.svg"
+          }
+        ]
+      }
+    ],
+    "title" : "swift package-collection refresh",
+    "topicImages" : [
+      {
+        "identifier" : "command-icon.svg",
+        "type" : "icon"
+      }
+    ]
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Organize, manage, and edit Swift packages.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.module",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs",
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs",
+    "title" : "Swift Package Manager",
+    "usr" : "PackageManagerDocs"
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Put a package in editable mode.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.article",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs\/packageedit",
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/PackageEdit",
+    "references" : [
+      {
+        "alt" : null,
+        "identifier" : "command-icon.svg",
+        "type" : "image",
+        "variants" : [
+          {
+            "traits" : [
+              "1x",
+              "light"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon.svg"
+          },
+          {
+            "traits" : [
+              "1x",
+              "dark"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon~dark.svg"
+          }
+        ]
+      }
+    ],
+    "title" : "swift package edit",
+    "topicImages" : [
+      {
+        "identifier" : "command-icon.svg",
+        "type" : "icon"
+      }
+    ]
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Initialize a new package.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.article",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs\/packageinit",
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/PackageInit",
+    "references" : [
+      {
+        "alt" : null,
+        "identifier" : "command-icon.svg",
+        "type" : "image",
+        "variants" : [
+          {
+            "traits" : [
+              "1x",
+              "light"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon.svg"
+          },
+          {
+            "traits" : [
+              "1x",
+              "dark"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon~dark.svg"
+          }
+        ]
+      }
+    ],
+    "title" : "swift package init",
+    "topicImages" : [
+      {
+        "identifier" : "command-icon.svg",
+        "type" : "icon"
+      }
+    ]
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Diagnose API-breaking changes to Swift modules in a package.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.article",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs\/packagediagnoseapibreakingchange",
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/PackageDiagnoseAPIBreakingChange",
+    "references" : [
+      {
+        "alt" : null,
+        "identifier" : "command-icon.svg",
+        "type" : "image",
+        "variants" : [
+          {
+            "traits" : [
+              "1x",
+              "light"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon.svg"
+          },
+          {
+            "traits" : [
+              "1x",
+              "dark"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon~dark.svg"
+          }
+        ]
+      }
+    ],
+    "title" : "swift package diagnose-api-breaking-changes",
+    "topicImages" : [
+      {
+        "identifier" : "command-icon.svg",
+        "type" : "icon"
+      }
+    ]
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Add a new product to the manifest.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.article",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs\/packageaddproduct",
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/PackageAddProduct",
+    "references" : [
+      {
+        "alt" : null,
+        "identifier" : "command-icon.svg",
+        "type" : "image",
+        "variants" : [
+          {
+            "traits" : [
+              "1x",
+              "light"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon.svg"
+          },
+          {
+            "traits" : [
+              "1x",
+              "dark"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon~dark.svg"
+          }
+        ]
+      }
+    ],
+    "title" : "swift package add-product",
+    "topicImages" : [
+      {
+        "identifier" : "command-icon.svg",
+        "type" : "icon"
+      }
+    ]
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Log in to a registry.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.article",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs\/packageregistrylogin",
+    "platforms" : [
+      {
+        "beta" : false,
+        "introducedAt" : "5.9",
+        "name" : "Swift"
+      }
+    ],
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/PackageRegistryLogin",
+    "references" : [
+      {
+        "alt" : null,
+        "identifier" : "command-icon.svg",
+        "type" : "image",
+        "variants" : [
+          {
+            "traits" : [
+              "1x",
+              "light"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon.svg"
+          },
+          {
+            "traits" : [
+              "1x",
+              "dark"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon~dark.svg"
+          }
+        ]
+      }
+    ],
+    "title" : "swift package-registry login",
+    "topicImages" : [
+      {
+        "identifier" : "command-icon.svg",
+        "type" : "icon"
+      }
+    ]
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Resolve package dependencies.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.article",
+    "language" : "swift",
+    "path" : "\/documentation\/packagemanagerdocs\/packageresolve",
+    "referenceURL" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/PackageResolve",
+    "references" : [
+      {
+        "alt" : null,
+        "identifier" : "command-icon.svg",
+        "type" : "image",
+        "variants" : [
+          {
+            "traits" : [
+              "1x",
+              "light"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon.svg"
+          },
+          {
+            "traits" : [
+              "1x",
+              "dark"
+            ],
+            "url" : "\/images\/PackageManagerDocs\/command-icon~dark.svg"
+          }
+        ]
+      }
+    ],
+    "title" : "swift package resolve",
+    "topicImages" : [
+      {
+        "identifier" : "command-icon.svg",
+        "type" : "icon"
+      }
+    ]
+  }
+]

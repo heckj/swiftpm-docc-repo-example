@@ -1,0 +1,2857 @@
+{
+  "bundleID" : "PackageManagerDocs",
+  "nonSymbolPaths" : {
+    "0" : "\/documentation\/PackageManagerDocs\/EnableCommandPlugin#View-available-plugins",
+    "1" : "\/documentation\/PackageManagerDocs\/PackageSecurity#Package-signing",
+    "10" : "\/documentation\/PackageManagerDocs\/UsingBuildConfigurations",
+    "100" : "\/documentation\/PackageManagerDocs\/PackageUpdate",
+    "101" : "\/documentation\/PackageManagerDocs\/RegistryServerSpecification#361-Package-scope",
+    "102" : "\/documentation\/PackageManagerDocs\/ResolvingPackageVersions#Overview",
+    "104" : "\/documentation\/PackageManagerDocs\/SwiftRun",
+    "105" : "\/documentation\/PackageManagerDocs\/UsingSwiftPackageRegistry#Signature-formats",
+    "106" : "\/documentation\/PackageManagerDocs\/PackageMigrate",
+    "107" : "\/documentation\/PackageManagerDocs\/Plugins#Overview",
+    "108" : "\/documentation\/PackageManagerDocs\/CreatingCLanguageTargets#Overview",
+    "109" : "\/documentation\/PackageManagerDocs\/UsingSwiftPackageRegistry#Validating-signed-packages",
+    "11" : "\/documentation\/PackageManagerDocs\/WritingBuildToolPlugin",
+    "110" : "\/documentation\/PackageManagerDocs\/UsingSwiftPackageRegistry#Swift-Package-Manager-Registry-Configuration",
+    "111" : "\/documentation\/PackageManagerDocs\/SwiftBuild",
+    "112" : "\/documentation\/PackageManagerDocs\/WritingCommandPlugin#Overview",
+    "113" : "\/documentation\/PackageManagerDocs\/ResolvingPackageVersions#Updating-the-dependencies",
+    "114" : "\/documentation\/PackageManagerDocs\/SwiftPackageCommands#Editing-packages",
+    "115" : "\/documentation\/PackageManagerDocs\/BundlingResources#Access-a-resource-in-code",
+    "116" : "\/documentation\/PackageManagerDocs\/SwiftSDKCommands",
+    "117" : "\/documentation\/PackageManagerDocs\/UsingBuildConfigurations#Release",
+    "118" : "\/documentation\/PackageManagerDocs\/PackageRegistryLogin",
+    "119" : "\/documentation\/PackageManagerDocs\/SwiftPMAsALibrary",
+    "12" : "\/documentation\/PackageManagerDocs\/PackageCollections#Signing-a-collection",
+    "120" : "\/documentation\/PackageManagerDocs\/PackageRegistryLogin#Example-basic-authentication-operating-systems-credential-store-not-supported-interactive",
+    "121" : "\/documentation\/PackageManagerDocs\/PackageCollectionDescribe#Metadata-and-packages-of-a-collection",
+    "122" : "\/documentation\/PackageManagerDocs\/PackageArchiveSource",
+    "123" : "\/documentation\/PackageManagerDocs\/PackagePurgeCache",
+    "124" : "\/documentation\/PackageManagerDocs\/ContinuousIntegration#Using-xcodebuild",
+    "125" : "\/documentation\/PackageManagerDocs\/AddingDependencies",
+    "126" : "\/documentation\/PackageManagerDocs\/EnableCommandPlugin#Exempting-sandbox-constraints",
+    "127" : "\/documentation\/PackageManagerDocs\/WritingCommandPlugin",
+    "128" : "\/documentation\/PackageManagerDocs\/BundlingResources",
+    "129" : "\/documentation\/PackageManagerDocs\/UsingShellCompletion#Zsh",
+    "13" : "\/documentation\/PackageManagerDocs\/PackageCollections#Configuration-File",
+    "130" : "\/documentation\/PackageManagerDocs\/WritingBuildToolPlugin#Xcode-Extensions-to-the-PackagePlugin-API",
+    "131" : "\/documentation\/PackageManagerDocs\/PackageComputeChecksum",
+    "132" : "\/documentation\/PackageManagerDocs\/UsingSwiftPackageRegistry#Overview",
+    "133" : "\/documentation\/PackageManagerDocs\/SwiftPackageCollectionCommands#Removing-a-package-collection",
+    "134" : "\/documentation\/PackageManagerDocs\/GettingStarted#Importing-Dependencies",
+    "135" : "\/documentation\/PackageManagerDocs\/WritingBuildToolPlugin#Build-tool-target-dependencies",
+    "136" : "\/tutorials",
+    "137" : "\/documentation\/PackageManagerDocs\/SwiftPackageCommands#Integrating-Package-Manager-into-your-shell",
+    "138" : "\/documentation\/PackageManagerDocs\/RegistryServerSpecification#451-URL-to-package-identifier-mappings",
+    "139" : "\/documentation\/PackageManagerDocs\/SwiftPackageCommands",
+    "14" : "\/documentation\/PackageManagerDocs\/ResolvingDependencyFailures#Failure-Scenarios",
+    "140" : "\/documentation\/PackageManagerDocs\/SDKConfigure",
+    "141" : "\/documentation\/PackageManagerDocs\/AddingSystemLibraryDependency#Using-pkg-config-to-provide-header-and-linker-search-paths",
+    "142" : "\/documentation\/PackageManagerDocs\/SwiftPackageCollectionCommands#Inspecting-package-collections",
+    "143" : "\/documentation\/PackageManagerDocs\/PackageAddDependency",
+    "144" : "\/documentation\/PackageManagerDocs\/PackageCollectionSearch#Module-based-search",
+    "145" : "\/documentation\/PackageManagerDocs\/WritingBuildToolPlugin#Prebuild-commands",
+    "146" : "\/documentation\/PackageManagerDocs\/SwiftPackageCommands#Updating-and-resolving-dependencies",
+    "147" : "\/documentation\/PackageManagerDocs\/PackageCollectionRefresh#Overview",
+    "148" : "\/documentation\/PackageManagerDocs\/UsingBuildConfigurations#Additional-Flags",
+    "149" : "\/documentation\/PackageManagerDocs#Overview",
+    "15" : "\/documentation\/PackageManagerDocs\/ExampleSystemLibraryPkgConfig#Run-the-example",
+    "150" : "\/documentation\/PackageManagerDocs\/PackageCollections#Example",
+    "151" : "\/documentation\/PackageManagerDocs\/SDKInstall",
+    "152" : "\/documentation\/PackageManagerDocs\/SwiftSDKCommands#Installing-an-SDK",
+    "153" : "\/documentation\/PackageManagerDocs\/RegistryServerSpecification",
+    "154" : "\/documentation\/PackageManagerDocs\/WritingCommandPlugin#Debugging-and-Testing",
+    "155" : "\/documentation\/PackageManagerDocs\/RegistryServerSpecification#33-Error-handling",
+    "156" : "\/documentation\/PackageManagerDocs\/PackageCollections#Version-specific-manifests",
+    "157" : "\/documentation\/PackageManagerDocs\/PackageCollections#Creating-Package-Collections",
+    "158" : "\/documentation\/PackageManagerDocs\/PackageRegistrySet#Overview",
+    "159" : "\/documentation\/PackageManagerDocs\/RegistryServerSpecification#4631-Synchronous-publication",
+    "16" : "\/documentation\/PackageManagerDocs\/ContinuousIntegration",
+    "160" : "\/documentation\/PackageManagerDocs\/EnableBuildPlugin#Add-a-dependency",
+    "161" : "\/documentation\/PackageManagerDocs\/SwiftPackageCommands#Archiving-packages",
+    "162" : "\/documentation\/PackageManagerDocs\/SwiftSDKCommands#Configuring-an-SDK",
+    "163" : "\/documentation\/PackageManagerDocs\/RegistryServerSpecification#PackageRelease-type",
+    "164" : "\/documentation\/PackageManagerDocs\/RegistryServerSpecification#6-Informative-References",
+    "165" : "\/documentation\/PackageManagerDocs\/SwiftSDKCommands#Deprecated-Commands",
+    "166" : "\/documentation\/PackageManagerDocs\/PackageCollectionRefresh#Usage",
+    "167" : "\/documentation\/PackageManagerDocs\/PackageCollectionSearch#Overview",
+    "168" : "\/documentation\/PackageManagerDocs\/RegistryServerSpecification#42-Fetch-information-about-a-package-release",
+    "169" : "\/documentation\/PackageManagerDocs\/ReleasingPublishingAPackage",
+    "17" : "\/documentation\/PackageManagerDocs#Swift-Commands",
+    "170" : "\/documentation\/PackageManagerDocs\/SwiftBuild#buildhelp",
+    "171" : "\/documentation\/PackageManagerDocs\/PackageCollections",
+    "172" : "\/documentation\/PackageManagerDocs\/RegistryServerSpecification#441-Integrity-verification",
+    "173" : "\/documentation\/PackageManagerDocs\/SettingSwiftToolsVersion#Overview",
+    "174" : "\/documentation\/PackageManagerDocs\/RegistryServerSpecification#46-Create-a-package-release",
+    "175" : "\/documentation\/PackageManagerDocs\/EnableBuildPlugin#Identify-the-targets-to-enable",
+    "176" : "\/documentation\/PackageManagerDocs\/PackageRegistryLogin#Usage",
+    "177" : "\/documentation\/PackageManagerDocs\/ResolvingDependencyFailures#Overview",
+    "178" : "\/documentation\/PackageManagerDocs\/Plugins#Plugin-Capabilities",
+    "179" : "\/documentation\/PackageManagerDocs\/GettingStarted#Overview",
+    "18" : "\/documentation\/PackageManagerDocs\/ModuleAliasing#Analyzing-the-conflicts",
+    "180" : "\/documentation\/PackageManagerDocs\/PackageCollectionDescribe",
+    "181" : "\/documentation\/PackageManagerDocs\/PackageCollectionSearch",
+    "182" : "\/documentation\/PackageManagerDocs\/RegistryServerSpecification#43-Fetch-manifest-for-a-package-release",
+    "183" : "\/documentation\/PackageManagerDocs\/EditingDependencyPackage",
+    "184" : "\/documentation\/PackageManagerDocs\/RegistryServerSpecification#442-Download-locations",
+    "185" : "\/documentation\/PackageManagerDocs\/CreatingCLanguageTargets#Exposing-C-functions-to-Swift",
+    "186" : "\/documentation\/PackageManagerDocs\/UsingSwiftPackageRegistry#Package-release-metadata",
+    "187" : "\/documentation\/PackageManagerDocs\/PackageRegistryLogout#Changes-to-registry-configuration",
+    "188" : "\/documentation\/PackageManagerDocs\/PackageCollections#Overview",
+    "189" : "\/documentation\/PackageManagerDocs\/CreatingSwiftPackage",
+    "19" : "\/documentation\/PackageManagerDocs\/PackageDumpSymbolGraph",
+    "190" : "\/documentation\/PackageManagerDocs\/PackageSecurity#Signed-packages-from-a-registry",
+    "191" : "\/documentation\/PackageManagerDocs\/UsingSwiftPackageRegistry#Package-security",
+    "192" : "\/documentation\/PackageManagerDocs\/PackageRegistryLogout",
+    "193" : "\/documentation\/PackageManagerDocs\/PackageCollectionSearch#Usage",
+    "194" : "\/documentation\/PackageManagerDocs\/IntroducingPackages",
+    "195" : "\/documentation\/PackageManagerDocs\/ModuleAliasing#How-to-Use",
+    "196" : "\/documentation\/PackageManagerDocs\/WritingBuildToolPlugin#Debugging-and-Testing",
+    "197" : "\/documentation\/PackageManagerDocs\/PackageCollections#Add-versions-to-a-package",
+    "198" : "\/documentation\/PackageManagerDocs\/RegistryServerSpecification#44-Download-source-archive",
+    "199" : "\/documentation\/PackageManagerDocs\/SwiftVersionSpecificPackaging#Overview",
+    "2" : "\/documentation\/PackageManagerDocs\/PackageRegistrySet#Setting-a-scope",
+    "20" : "\/documentation\/PackageManagerDocs\/PackageCollectionAdd",
+    "200" : "\/documentation\/PackageManagerDocs\/PackageRegistryLogout#Overview",
+    "201" : "\/documentation\/PackageManagerDocs\/UsingSwiftPackageRegistry#Registry-to-scope-mappings",
+    "202" : "\/documentation\/PackageManagerDocs\/UsingShellCompletion",
+    "203" : "\/documentation\/PackageManagerDocs\/IntroducingPackages#About-Modules",
+    "204" : "\/documentation\/PackageManagerDocs\/WritingBuildToolPlugin#Diagnostics",
+    "205" : "\/documentation\/PackageManagerDocs\/PackageInit",
+    "206" : "\/documentation\/PackageManagerDocs\/ContinuousIntegration#Use-the-Expected-Version-of-a-Package-Dependency",
+    "207" : "\/documentation\/PackageManagerDocs\/SDKConfigurationShow",
+    "208" : "\/documentation\/PackageManagerDocs\/PackageCollections#Using-the-package-collection-CLI",
+    "209" : "\/documentation\/PackageManagerDocs\/BundlingResources#Explicitly-declare-or-exclude-resources",
+    "21" : "\/documentation\/PackageManagerDocs\/PackageRegistryPublish#Usage",
+    "210" : "\/documentation\/PackageManagerDocs\/AddingDependencies#Precomiled-Binary-Targets-for-Apple-platforms",
+    "211" : "\/documentation\/PackageManagerDocs\/PackageCompletionTool",
+    "212" : "\/documentation\/PackageManagerDocs\/PackageCollectionList#Usage",
+    "213" : "\/documentation\/PackageManagerDocs\/SettingSwiftToolsVersion#Resolving-dependencies-with-different-tools-versions",
+    "214" : "\/documentation\/PackageManagerDocs\/RegistryServerSpecification#34-Rate-limiting",
+    "215" : "\/documentation\/PackageManagerDocs\/AddingDependencies#System-Library-Dependencies",
+    "216" : "\/documentation\/PackageManagerDocs\/RegistryServerSpecification#462-Package-release-metadata",
+    "217" : "\/documentation\/PackageManagerDocs\/EditingDependencyPackage#Overview",
+    "218" : "\/documentation\/PackageManagerDocs\/PackageSecurity#Trust-on-First-Use",
+    "219" : "\/documentation\/PackageManagerDocs\/ResolvingDependencyFailures",
+    "22" : "\/documentation\/PackageManagerDocs\/SwiftPackageRegistryCommands#Adding-and-Removing-Registries",
+    "220" : "\/documentation\/PackageManagerDocs\/RegistryServerSpecification#2-Definitions",
+    "221" : "\/documentation\/PackageManagerDocs\/PackageRegistryPublish#Package-signing",
+    "222" : "\/documentation\/PackageManagerDocs\/PackageRegistryPublish#Publisher-TOFU",
+    "223" : "\/documentation\/PackageManagerDocs\/PackageCollectionDescribe#Usage",
+    "224" : "\/documentation\/PackageManagerDocs\/RegistryServerSpecification#Appendix-B-Package-Release-Metadata-JSON-Schema",
+    "225" : "\/documentation\/PackageManagerDocs\/EditingDependencyPackage#Top-of-Tree-Development",
+    "226" : "\/documentation\/PackageManagerDocs\/PackageCollectionAdd#Overview",
+    "227" : "\/documentation\/PackageManagerDocs\/PackageRegistryUnset#Usage",
+    "228" : "\/documentation\/PackageManagerDocs\/PackageShowExecutables",
+    "229" : "\/documentation\/PackageManagerDocs\/WritingCommandPlugin#Declaring-a-command-plugin-in-the-package-manifest",
+    "23" : "\/documentation\/PackageManagerDocs\/AddingDependencies#Local-Dependencies",
+    "230" : "\/documentation\/PackageManagerDocs\/RegistryServerSpecification#36-Package-identification",
+    "231" : "\/documentation\/PackageManagerDocs\/SDKList",
+    "232" : "\/documentation\/PackageManagerDocs\/EnableBuildPlugin#Overview",
+    "233" : "\/documentation\/PackageManagerDocs\/PackageAddTarget",
+    "234" : "\/documentation\/PackageManagerDocs\/AddingSystemLibraryDependency",
+    "235" : "\/documentation\/PackageManagerDocs\/RegistryServerSpecification#35-API-versioning",
+    "236" : "\/documentation\/PackageManagerDocs\/SwiftPackageCommands#Using-package-manager-plugins",
+    "237" : "\/documentation\/PackageManagerDocs\/PackageSecurity#Trusted-root-certificates",
+    "238" : "\/documentation\/PackageManagerDocs\/PackageCollections#Security-risks",
+    "239" : "\/documentation\/PackageManagerDocs\/PackageRegistryLogin#Example-basic-authentication-macOS-interactive",
+    "24" : "\/documentation\/PackageManagerDocs\/UsingSwiftPackageRegistry#Adding-a-registry-package-dependency",
+    "240" : "\/documentation\/PackageManagerDocs\/SwiftSDKCommands#Listing-SDKs",
+    "241" : "\/documentation\/PackageManagerDocs#Essentials",
+    "242" : "\/documentation\/PackageManagerDocs\/PackageCollections#Protecting-package-collections",
+    "243" : "\/documentation\/PackageManagerDocs#Reference",
+    "244" : "\/documentation\/PackageManagerDocs\/ExampleSystemLibraryPkgConfig#Add-the-system-library-dependency-to-the-executable-target",
+    "245" : "\/documentation\/PackageManagerDocs\/Plugins",
+    "246" : "\/documentation\/PackageManagerDocs\/SettingSwiftToolsVersion",
+    "247" : "\/documentation\/PackageManagerDocs\/ModuleAliasing#Override-Module-Aliases",
+    "248" : "\/documentation\/PackageManagerDocs\/PackageUnedit",
+    "249" : "\/documentation\/PackageManagerDocs\/SDKRemove",
+    "25" : "\/documentation\/PackageManagerDocs\/SwiftPackageCollectionCommands#Overview",
+    "250" : "\/documentation\/PackageManagerDocs\/ModuleAliasing#Example",
+    "251" : "\/documentation\/PackageManagerDocs\/UsingBuildConfigurations#Overview",
+    "252" : "\/documentation\/PackageManagerDocs\/AddingSystemLibraryDependency#Versioning-Modules-from-system-libraries",
+    "253" : "\/documentation\/PackageManagerDocs\/PackageRegistrySet#Project-level",
+    "254" : "\/documentation\/PackageManagerDocs\/PackageRegistryPublish#Overview",
+    "255" : "\/documentation\/PackageManagerDocs\/WritingCommandPlugin#Xcode-Extensions-to-the-PackagePlugin-API",
+    "256" : "\/documentation\/PackageManagerDocs\/ModuleAliasing#Overview",
+    "257" : "\/documentation\/PackageManagerDocs\/RegistryServerSpecification#5-Normative-References",
+    "258" : "\/documentation\/PackageManagerDocs\/PackageRegistryPublish",
+    "259" : "\/documentation\/PackageManagerDocs\/PackageCollectionSearch#String-based-search",
+    "26" : "\/documentation\/PackageManagerDocs\/PackageEdit",
+    "260" : "\/documentation\/PackageManagerDocs\/ExampleSystemLibraryPkgConfig#Overview",
+    "261" : "\/documentation\/PackageManagerDocs\/PackageRegistrySet#Usage",
+    "262" : "\/documentation\/PackageManagerDocs\/RegistryServerSpecification#4632-Asynchronous-publication",
+    "263" : "\/documentation\/PackageManagerDocs\/PackageDescription",
+    "264" : "\/documentation\/PackageManagerDocs\/PackageRegistryLogin#Example-basic-authentication-operating-systems-credential-store-not-supported-non-interactive-non-default-login-URL",
+    "265" : "\/documentation\/PackageManagerDocs\/UsingBuildConfigurations#Debug",
+    "266" : "\/documentation\/PackageManagerDocs\/BundlingResources#Overview",
+    "267" : "\/documentation\/PackageManagerDocs\/PackageRegistryUnset",
+    "268" : "\/documentation\/PackageManagerDocs\/AddingDependencies#Topics",
+    "269" : "\/documentation\/PackageManagerDocs\/EnableCommandPlugin#Pass-arguments-and-flags-to-the-plugin",
+    "27" : "\/documentation\/PackageManagerDocs\/AddingSystemLibraryDependency#Declaring-the-system-library",
+    "270" : "\/documentation\/PackageManagerDocs\/UsingSwiftPackageRegistry#Publishing-to-Registry",
+    "271" : "\/documentation\/PackageManagerDocs\/RegistryServerSpecification#443-Signature-validation",
+    "272" : "\/documentation\/PackageManagerDocs\/PackageRegistrySet",
+    "273" : "\/documentation\/PackageManagerDocs\/SDKConfigurationReset",
+    "274" : "\/documentation\/PackageManagerDocs\/SwiftPackageRegistryCommands#Accessing-Registries",
+    "275" : "\/documentation\/PackageManagerDocs\/PackageRegistryLogout#Usage",
+    "276" : "\/documentation\/PackageManagerDocs\/ContinuousIntegration#Overview",
+    "277" : "\/documentation\/PackageManagerDocs\/PackageCollectionAdd#Unsigned-package-collections",
+    "278" : "\/documentation\/PackageManagerDocs\/PackageCollectionDescribe#Overview",
+    "279" : "\/documentation\/PackageManagerDocs\/PackageExperimentalUninstall",
+    "28" : "\/documentation\/PackageManagerDocs\/UsingSwiftPackageRegistry#Security-configuration",
+    "280" : "\/documentation\/PackageManagerDocs\/UsingShellCompletion#Overview",
+    "281" : "\/documentation\/PackageManagerDocs\/SwiftTest#swifttestlist",
+    "282" : "\/documentation\/PackageManagerDocs\/SwiftVersionSpecificPackaging#Version-specific-Manifest-Selection",
+    "283" : "\/documentation\/PackageManagerDocs\/SettingSwiftToolsVersion#Adjusting-the-tools-version",
+    "284" : "\/documentation\/PackageManagerDocs\/UsingSwiftPackageRegistry#Dependency-Resolution-Using-Registry",
+    "285" : "\/documentation\/PackageManagerDocs\/CreatingSwiftPackage#Creating-a-Library-Package",
+    "286" : "\/documentation\/PackageManagerDocs\/SwiftPackageCommands#Configuring-Mirrors",
+    "287" : "\/documentation\/PackageManagerDocs\/EnableCommandPlugin#Add-a-dependency",
+    "288" : "\/documentation\/PackageManagerDocs\/PackageRegistrySet#Removing-a-registry",
+    "289" : "\/documentation\/PackageManagerDocs\/PackageConfigSetMirror",
+    "29" : "\/documentation\/PackageManagerDocs\/SwiftPackageCommands#Overview",
+    "290" : "\/documentation\/PackageManagerDocs\/Plugins#Enabling-Plugins",
+    "291" : "\/documentation\/PackageManagerDocs\/CreatingSwiftPackage#Creating-a-Macro-Package",
+    "292" : "\/documentation\/PackageManagerDocs\/ExampleSystemLibraryPkgConfig#Create-a-module-map-and-local-header",
+    "293" : "\/documentation\/PackageManagerDocs\/PackageSecurity#Trusted-vs-untrusted-certificate",
+    "294" : "\/documentation\/PackageManagerDocs\/PackageCollectionAdd#Trusted-root-certificates",
+    "295" : "\/documentation\/PackageManagerDocs\/WritingCommandPlugin#Diagnostics",
+    "296" : "\/documentation\/PackageManagerDocs\/PackageRegistryLogin#Overview",
+    "297" : "\/documentation\/PackageManagerDocs\/ResolvingPackageVersions",
+    "298" : "\/documentation\/PackageManagerDocs\/ResolvingPackageVersions#Coordinating-versions-of-dependencies-for-your-package",
+    "299" : "\/documentation\/PackageManagerDocs\/RegistryServerSpecification#422-Package-release-metadata-standards",
+    "3" : "\/documentation\/PackageManagerDocs\/SwiftPackageCommands#Inspecting-packages",
+    "30" : "\/documentation\/PackageManagerDocs\/Plugins#Creating-Plugins",
+    "300" : "\/documentation\/PackageManagerDocs\/UsingSwiftPackageRegistry#Package-manifests",
+    "301" : "\/documentation\/PackageManagerDocs\/UsingSwiftPackageRegistry",
+    "302" : "\/documentation\/PackageManagerDocs\/RegistryServerSpecification#431-swift-version-query-parameter",
+    "303" : "\/documentation\/PackageManagerDocs\/CreatingSwiftPackage#Overview",
+    "304" : "\/documentation\/PackageManagerDocs\/AddingSystemLibraryDependency#Overview",
+    "305" : "\/documentation\/PackageManagerDocs\/RegistryServerSpecification#1-Notations",
+    "306" : "\/documentation\/PackageManagerDocs\/UsingSwiftPackageRegistry#Dependency-Download-From-Registry",
+    "307" : "\/documentation\/PackageManagerDocs\/PackageToolsVersion",
+    "308" : "\/documentation\/PackageManagerDocs\/PackageAddTargetDependency",
+    "309" : "\/documentation\/PackageManagerDocs\/PackageCollectionRefresh",
+    "31" : "\/documentation\/PackageManagerDocs\/RegistryServerSpecification#32-Authentication",
+    "310" : "\/documentation\/PackageManagerDocs\/WritingBuildToolPlugin#Implementing-the-build-tool-plugin-script",
+    "311" : "\/documentation\/PackageManagerDocs\/SwiftVersionSpecificPackaging#Version-specific-tags-when-resolving-remote-dependencies",
+    "312" : "\/documentation\/PackageManagerDocs\/PackageDescribe",
+    "313" : "\/documentation\/PackageManagerDocs\/PackageCollections#Version-specific-tags",
+    "314" : "\/documentation\/PackageManagerDocs\/AddingSystemLibraryDependency#System-Libraries-With-Optional-Dependencies",
+    "315" : "\/documentation\/PackageManagerDocs\/PackageCollectionDescribe#Signed-package-collections",
+    "316" : "\/documentation\/PackageManagerDocs\/AddingDependencies#Overview",
+    "317" : "\/documentation\/PackageManagerDocs\/PackageCollectionList#Overview",
+    "318" : "\/documentation\/PackageManagerDocs\/UsingSwiftPackageRegistry#Registry-authentication",
+    "319" : "\/documentation\/PackageManagerDocs\/UsingSwiftPackageRegistry#Source-archive",
+    "32" : "\/documentation\/PackageManagerDocs\/PackageCollectionAdd#Usage",
+    "320" : "\/documentation\/PackageManagerDocs\/ModuleAliasing#Transitive-Logging-modules",
+    "321" : "\/documentation\/PackageManagerDocs\/SwiftPackageRegistryCommands",
+    "322" : "\/documentation\/PackageManagerDocs\/RegistryServerSpecification#463-Synchronous-and-asynchronous-publication",
+    "323" : "\/documentation\/PackageManagerDocs\/SwiftPackageCollectionCommands#Updating-package-collection",
+    "324" : "\/documentation\/PackageManagerDocs\/RegistryServerSpecification#Author-type",
+    "325" : "\/documentation\/PackageManagerDocs\/PackageCollectionList",
+    "326" : "\/documentation\/PackageManagerDocs#Guides",
+    "327" : "\/documentation\/PackageManagerDocs\/PackageCollectionRemove#Overview",
+    "328" : "\/documentation\/PackageManagerDocs\/PackageCollections#Add-packages-to-the-collection",
+    "329" : "\/documentation\/PackageManagerDocs\/SwiftSDKCommands#Overview",
+    "33" : "\/documentation\/PackageManagerDocs\/IntroducingPackages#Overview",
+    "330" : "\/documentation\/PackageManagerDocs\/SwiftPackageCommands#Cleaning-builds-and-caches",
+    "331" : "\/documentation\/PackageManagerDocs\/PackageConfigUnsetMirror",
+    "332" : "\/documentation\/PackageManagerDocs\/ReleasingPublishingAPackage#Overview",
+    "333" : "\/documentation\/PackageManagerDocs\/UsingSwiftPackageRegistry#Configuring-a-registry",
+    "334" : "\/documentation\/PackageManagerDocs\/PackageDiagnoseAPIBreakingChange",
+    "335" : "\/documentation\/PackageManagerDocs\/PackageRegistryLogin#Example-basic-authentication-operating-systems-credential-store-not-supported-non-interactive",
+    "336" : "\/documentation\/PackageManagerDocs\/PackageCollectionAdd#Signed-package-collections",
+    "337" : "\/documentation\/PackageManagerDocs\/RegistryServerSpecification#Appendix-A-OpenAPI-Document",
+    "338" : "\/documentation\/PackageManagerDocs\/IntroducingPackages#About-Dependencies",
+    "339" : "\/documentation\/PackageManagerDocs\/Plugins#References",
+    "34" : "\/documentation\/PackageManagerDocs\/PackageAddProduct",
+    "340" : "\/documentation\/PackageManagerDocs\/PackageReset",
+    "341" : "\/documentation\/PackageManagerDocs\/PackagePlugin",
+    "342" : "\/documentation\/PackageManagerDocs\/GettingStarted#Creating-a-Library-Package",
+    "343" : "\/documentation\/PackageManagerDocs\/EnableCommandPlugin#Overview",
+    "35" : "\/documentation\/PackageManagerDocs\/SwiftPackageCollectionCommands#Adding-a-package-collection",
+    "36" : "\/documentation\/PackageManagerDocs\/UsingSwiftPackageRegistry#Using-registry-for-source-control-dependencies",
+    "37" : "\/documentation\/PackageManagerDocs\/SwiftTest#swifttestlast",
+    "38" : "\/documentation\/PackageManagerDocs\/GettingStarted",
+    "39" : "\/documentation\/PackageManagerDocs\/SwiftSDKCommands#Removing-an-SDK",
+    "4" : "\/documentation\/PackageManagerDocs\/PackageAddSetting",
+    "40" : "\/documentation\/PackageManagerDocs\/RegistryServerSpecification#4-Endpoints",
+    "41" : "\/documentation\/PackageManagerDocs\/RegistryServerSpecification#421-Package-release-resources",
+    "42" : "\/documentation\/PackageManagerDocs\/ModuleAliasing",
+    "43" : "\/documentation\/PackageManagerDocs\/EnableCommandPlugin",
+    "44" : "\/documentation\/PackageManagerDocs\/RegistryServerSpecification#31-Application-layer-protocols",
+    "45" : "\/documentation\/PackageManagerDocs\/SwiftVersionSpecificPackaging",
+    "46" : "\/documentation\/PackageManagerDocs\/WritingBuildToolPlugin#Build-commands",
+    "47" : "\/documentation\/PackageManagerDocs\/AddingDependencies#Constraining-dependency-versions",
+    "48" : "\/documentation\/PackageManagerDocs\/CreatingCLanguageTargets",
+    "49" : "\/documentation\/PackageManagerDocs\/GettingStarted#Resolving-transitive-dependencies",
+    "5" : "\/documentation\/PackageManagerDocs\/RegistryServerSpecification#362-Package-name",
+    "50" : "\/documentation\/PackageManagerDocs\/PackageRegistryLogin#Example-token-authentication",
+    "51" : "\/documentation\/PackageManagerDocs\/ModuleAliasing#Utils-modules",
+    "52" : "\/documentation\/PackageManagerDocs\/PackageCollections#Input-Format",
+    "53" : "\/documentation\/PackageManagerDocs\/PackageCollectionRemove",
+    "54" : "\/documentation\/PackageManagerDocs\/PackageSecurity#Certificate-policies",
+    "55" : "\/documentation\/PackageManagerDocs\/PackageRegistrySet#Registry-settings",
+    "56" : "\/documentation\/PackageManagerDocs\/WritingCommandPlugin#Implementing-the-command-plugin-script",
+    "57" : "\/documentation\/PackageManagerDocs\/RegistryServerSpecification#Organization-type",
+    "58" : "\/documentation\/PackageManagerDocs\/SwiftPackageCollectionCommands",
+    "59" : "\/documentation\/PackageManagerDocs\/SwiftRun#runhelp",
+    "6" : "\/documentation\/PackageManagerDocs\/PackageSecurity",
+    "60" : "\/documentation\/PackageManagerDocs\/CreatingSwiftPackage#Creating-an-Executable-Package",
+    "61" : "\/documentation\/PackageManagerDocs\/SwiftTest",
+    "62" : "\/documentation\/PackageManagerDocs\/UsingSwiftPackageRegistry#Signed-contents",
+    "63" : "\/documentation\/PackageManagerDocs\/PackageRegistryPublish#Package-release-metadata",
+    "64" : "\/documentation\/PackageManagerDocs\/SwiftPackageCommands#Creating-packages",
+    "65" : "\/documentation\/PackageManagerDocs\/PackageResolve",
+    "66" : "\/documentation\/PackageManagerDocs\/PackageSecurity#Signed-package-collections",
+    "67" : "\/documentation\/PackageManagerDocs\/RegistryServerSpecification#41-List-package-releases",
+    "68" : "\/documentation\/PackageManagerDocs\/BundlingResources#Add-resource-files",
+    "69" : "\/documentation\/PackageManagerDocs\/PackageRegistrySet#User-level",
+    "7" : "\/documentation\/PackageManagerDocs\/AddingSystemLibraryDependency#Authoring-a-module-map",
+    "70" : "\/documentation\/PackageManagerDocs\/EnableBuildPlugin",
+    "71" : "\/documentation\/PackageManagerDocs\/SwiftPackageCommands#Experimental-commands",
+    "72" : "\/documentation\/PackageManagerDocs\/PackageRegistryLogin#Example-basic-authentication-use-netrc-file-instead-of-operating-systems-credential-store-interactive",
+    "73" : "\/documentation\/PackageManagerDocs\/PackageConfigGetMirror",
+    "74" : "\/documentation\/PackageManagerDocs\/ExampleSystemLibraryPkgConfig#Add-a-system-library-target",
+    "75" : "\/documentation\/PackageManagerDocs\/PackageSecurity#Requirements-on-signing-certificate",
+    "76" : "\/documentation\/PackageManagerDocs\/ResolvingPackageVersions#Resolving-Dependencies",
+    "77" : "\/documentation\/PackageManagerDocs\/ExampleSystemLibraryPkgConfig",
+    "78" : "\/tutorials\/PackageManagerDocs",
+    "79" : "\/documentation\/PackageManagerDocs#Design",
+    "8" : "\/documentation\/PackageManagerDocs\/WritingBuildToolPlugin#Declaring-a-build-tool-plugin-in-the-package-manifest",
+    "80" : "\/documentation\/PackageManagerDocs\/SwiftPackageCollectionCommands#Finding-package-collections",
+    "81" : "\/documentation\/PackageManagerDocs\/PackageSecurity#Validating-signed-packages",
+    "82" : "\/documentation\/PackageManagerDocs\/PackageCollectionDescribe#Metadata-of-a-package-version",
+    "83" : "\/documentation\/PackageManagerDocs\/RegistryServerSpecification#461-Source-archive",
+    "84" : "\/documentation\/PackageManagerDocs\/ContinuousIntegration#Provide-Credentials",
+    "85" : "\/documentation\/PackageManagerDocs\/UsingShellCompletion#Bash",
+    "86" : "\/documentation\/PackageManagerDocs\/UsingSwiftPackageRegistry#Package-signing",
+    "87" : "\/documentation\/PackageManagerDocs\/Plugins#Writing-Plugins",
+    "88" : "\/documentation\/PackageManagerDocs\/PackageDumpPackage",
+    "89" : "\/documentation\/PackageManagerDocs\/PackageCollectionRemove#Usage",
+    "9" : "\/documentation\/PackageManagerDocs\/SwiftPMAsALibrary#Overview",
+    "90" : "\/documentation\/PackageManagerDocs\/PackageCollectionDescribe#Metadata-of-a-package",
+    "91" : "\/documentation\/PackageManagerDocs\/RegistryServerSpecification#45-Lookup-package-identifiers-registered-for-a-URL",
+    "92" : "\/documentation\/PackageManagerDocs\/SDKConfigurationSet",
+    "93" : "\/documentation\/PackageManagerDocs\/ExampleSystemLibraryPkgConfig#Set-up-the-package",
+    "94" : "\/documentation\/PackageManagerDocs\/PackageClean",
+    "95" : "\/documentation\/PackageManagerDocs\/PackageExperimentalInstall",
+    "96" : "\/documentation\/PackageManagerDocs\/WritingBuildToolPlugin#Overview",
+    "97" : "\/documentation\/PackageManagerDocs\/RegistryServerSpecification#3-Conventions",
+    "98" : "\/documentation\/PackageManagerDocs\/PackageShowDependencies",
+    "99" : "\/documentation\/PackageManagerDocs\/SwiftPackageRegistryCommands#Overview"
+  },
+  "pathHierarchy" : {
+    "articlesContainer" : 103,
+    "modules" : [
+      103
+    ],
+    "nodes" : [
+      {
+        "name" : "View-available-plugins"
+      },
+      {
+        "name" : "Package-signing"
+      },
+      {
+        "name" : "Setting-a-scope"
+      },
+      {
+        "name" : "Inspecting-packages"
+      },
+      {
+        "name" : "PackageAddSetting"
+      },
+      {
+        "name" : "362-Package-name"
+      },
+      {
+        "children" : [
+          {
+            "kind" : "anchor",
+            "nodeID" : 237
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 81
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 75
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 1
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 190
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 293
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 54
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 218
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 66
+          }
+        ],
+        "name" : "PackageSecurity"
+      },
+      {
+        "name" : "Authoring-a-module-map"
+      },
+      {
+        "name" : "Declaring-a-build-tool-plugin-in-the-package-manifest"
+      },
+      {
+        "name" : "Overview"
+      },
+      {
+        "children" : [
+          {
+            "kind" : "anchor",
+            "nodeID" : 265
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 148
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 117
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 251
+          }
+        ],
+        "name" : "UsingBuildConfigurations"
+      },
+      {
+        "children" : [
+          {
+            "kind" : "anchor",
+            "nodeID" : 204
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 145
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 96
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 46
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 8
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 310
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 130
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 196
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 135
+          }
+        ],
+        "name" : "WritingBuildToolPlugin"
+      },
+      {
+        "name" : "Signing-a-collection"
+      },
+      {
+        "name" : "Configuration-File"
+      },
+      {
+        "name" : "Failure-Scenarios"
+      },
+      {
+        "name" : "Run-the-example"
+      },
+      {
+        "children" : [
+          {
+            "kind" : "anchor",
+            "nodeID" : 206
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 276
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 84
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 124
+          }
+        ],
+        "name" : "ContinuousIntegration"
+      },
+      {
+        "name" : "Swift-Commands"
+      },
+      {
+        "name" : "Analyzing-the-conflicts"
+      },
+      {
+        "name" : "PackageDumpSymbolGraph"
+      },
+      {
+        "children" : [
+          {
+            "kind" : "anchor",
+            "nodeID" : 277
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 32
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 294
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 226
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 336
+          }
+        ],
+        "name" : "PackageCollectionAdd"
+      },
+      {
+        "name" : "Usage"
+      },
+      {
+        "name" : "Adding-and-Removing-Registries"
+      },
+      {
+        "name" : "Local-Dependencies"
+      },
+      {
+        "name" : "Adding-a-registry-package-dependency"
+      },
+      {
+        "name" : "Overview"
+      },
+      {
+        "name" : "PackageEdit"
+      },
+      {
+        "name" : "Declaring-the-system-library"
+      },
+      {
+        "name" : "Security-configuration"
+      },
+      {
+        "name" : "Overview"
+      },
+      {
+        "name" : "Creating-Plugins"
+      },
+      {
+        "name" : "32-Authentication"
+      },
+      {
+        "name" : "Usage"
+      },
+      {
+        "name" : "Overview"
+      },
+      {
+        "name" : "PackageAddProduct"
+      },
+      {
+        "name" : "Adding-a-package-collection"
+      },
+      {
+        "name" : "Using-registry-for-source-control-dependencies"
+      },
+      {
+        "name" : "swifttestlast"
+      },
+      {
+        "children" : [
+          {
+            "kind" : "anchor",
+            "nodeID" : 49
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 179
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 342
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 134
+          }
+        ],
+        "name" : "GettingStarted"
+      },
+      {
+        "name" : "Removing-an-SDK"
+      },
+      {
+        "name" : "4-Endpoints"
+      },
+      {
+        "name" : "421-Package-release-resources"
+      },
+      {
+        "children" : [
+          {
+            "kind" : "anchor",
+            "nodeID" : 256
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 18
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 51
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 320
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 195
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 250
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 247
+          }
+        ],
+        "name" : "ModuleAliasing"
+      },
+      {
+        "children" : [
+          {
+            "kind" : "anchor",
+            "nodeID" : 269
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 126
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 343
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 0
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 287
+          }
+        ],
+        "name" : "EnableCommandPlugin"
+      },
+      {
+        "name" : "31-Application-layer-protocols"
+      },
+      {
+        "children" : [
+          {
+            "kind" : "anchor",
+            "nodeID" : 282
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 199
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 311
+          }
+        ],
+        "name" : "SwiftVersionSpecificPackaging"
+      },
+      {
+        "name" : "Build-commands"
+      },
+      {
+        "name" : "Constraining-dependency-versions"
+      },
+      {
+        "children" : [
+          {
+            "kind" : "anchor",
+            "nodeID" : 108
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 185
+          }
+        ],
+        "name" : "CreatingCLanguageTargets"
+      },
+      {
+        "name" : "Resolving-transitive-dependencies"
+      },
+      {
+        "name" : "Example-token-authentication"
+      },
+      {
+        "name" : "Utils-modules"
+      },
+      {
+        "name" : "Input-Format"
+      },
+      {
+        "children" : [
+          {
+            "kind" : "anchor",
+            "nodeID" : 327
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 89
+          }
+        ],
+        "name" : "PackageCollectionRemove"
+      },
+      {
+        "name" : "Certificate-policies"
+      },
+      {
+        "name" : "Registry-settings"
+      },
+      {
+        "name" : "Implementing-the-command-plugin-script"
+      },
+      {
+        "name" : "Organization-type"
+      },
+      {
+        "children" : [
+          {
+            "kind" : "anchor",
+            "nodeID" : 323
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 133
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 142
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 35
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 80
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 25
+          }
+        ],
+        "name" : "SwiftPackageCollectionCommands"
+      },
+      {
+        "name" : "runhelp"
+      },
+      {
+        "name" : "Creating-an-Executable-Package"
+      },
+      {
+        "children" : [
+          {
+            "kind" : "anchor",
+            "nodeID" : 281
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 37
+          }
+        ],
+        "name" : "SwiftTest"
+      },
+      {
+        "name" : "Signed-contents"
+      },
+      {
+        "name" : "Package-release-metadata"
+      },
+      {
+        "name" : "Creating-packages"
+      },
+      {
+        "name" : "PackageResolve"
+      },
+      {
+        "name" : "Signed-package-collections"
+      },
+      {
+        "name" : "41-List-package-releases"
+      },
+      {
+        "name" : "Add-resource-files"
+      },
+      {
+        "name" : "User-level"
+      },
+      {
+        "children" : [
+          {
+            "kind" : "anchor",
+            "nodeID" : 232
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 160
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 175
+          }
+        ],
+        "name" : "EnableBuildPlugin"
+      },
+      {
+        "name" : "Experimental-commands"
+      },
+      {
+        "name" : "Example-basic-authentication-use-netrc-file-instead-of-operating-systems-credential-store-interactive"
+      },
+      {
+        "name" : "PackageConfigGetMirror"
+      },
+      {
+        "name" : "Add-a-system-library-target"
+      },
+      {
+        "name" : "Requirements-on-signing-certificate"
+      },
+      {
+        "name" : "Resolving-Dependencies"
+      },
+      {
+        "children" : [
+          {
+            "kind" : "anchor",
+            "nodeID" : 244
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 74
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 93
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 15
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 260
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 292
+          }
+        ],
+        "name" : "ExampleSystemLibraryPkgConfig"
+      },
+      {
+        "name" : "PackageManagerDocs"
+      },
+      {
+        "name" : "Design"
+      },
+      {
+        "name" : "Finding-package-collections"
+      },
+      {
+        "name" : "Validating-signed-packages"
+      },
+      {
+        "name" : "Metadata-of-a-package-version"
+      },
+      {
+        "name" : "461-Source-archive"
+      },
+      {
+        "name" : "Provide-Credentials"
+      },
+      {
+        "name" : "Bash"
+      },
+      {
+        "name" : "Package-signing"
+      },
+      {
+        "name" : "Writing-Plugins"
+      },
+      {
+        "name" : "PackageDumpPackage"
+      },
+      {
+        "name" : "Usage"
+      },
+      {
+        "name" : "Metadata-of-a-package"
+      },
+      {
+        "name" : "45-Lookup-package-identifiers-registered-for-a-URL"
+      },
+      {
+        "name" : "SDKConfigurationSet"
+      },
+      {
+        "name" : "Set-up-the-package"
+      },
+      {
+        "name" : "PackageClean"
+      },
+      {
+        "name" : "PackageExperimentalInstall"
+      },
+      {
+        "name" : "Overview"
+      },
+      {
+        "name" : "3-Conventions"
+      },
+      {
+        "name" : "PackageShowDependencies"
+      },
+      {
+        "name" : "Overview"
+      },
+      {
+        "name" : "PackageUpdate"
+      },
+      {
+        "name" : "361-Package-scope"
+      },
+      {
+        "name" : "Overview"
+      },
+      {
+        "children" : [
+          {
+            "kind" : "article",
+            "nodeID" : 92
+          },
+          {
+            "kind" : "article",
+            "nodeID" : 205
+          },
+          {
+            "kind" : "article",
+            "nodeID" : 118
+          },
+          {
+            "kind" : "article",
+            "nodeID" : 297
+          },
+          {
+            "kind" : "article",
+            "nodeID" : 94
+          },
+          {
+            "kind" : "article",
+            "nodeID" : 143
+          },
+          {
+            "kind" : "article",
+            "nodeID" : 11
+          },
+          {
+            "kind" : "article",
+            "nodeID" : 100
+          },
+          {
+            "kind" : "article",
+            "nodeID" : 95
+          },
+          {
+            "kind" : "article",
+            "nodeID" : 131
+          },
+          {
+            "kind" : "article",
+            "nodeID" : 183
+          },
+          {
+            "kind" : "article",
+            "nodeID" : 140
+          },
+          {
+            "kind" : "article",
+            "nodeID" : 111
+          },
+          {
+            "kind" : "article",
+            "nodeID" : 4
+          },
+          {
+            "kind" : "article",
+            "nodeID" : 48
+          },
+          {
+            "kind" : "article",
+            "nodeID" : 228
+          },
+          {
+            "kind" : "article",
+            "nodeID" : 194
+          },
+          {
+            "kind" : "article",
+            "nodeID" : 233
+          },
+          {
+            "kind" : "article",
+            "nodeID" : 325
+          },
+          {
+            "kind" : "article",
+            "nodeID" : 65
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 79
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 243
+          },
+          {
+            "kind" : "article",
+            "nodeID" : 127
+          },
+          {
+            "kind" : "article",
+            "nodeID" : 245
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 241
+          },
+          {
+            "kind" : "article",
+            "nodeID" : 125
+          },
+          {
+            "kind" : "article",
+            "nodeID" : 334
+          },
+          {
+            "kind" : "article",
+            "nodeID" : 192
+          },
+          {
+            "kind" : "article",
+            "nodeID" : 26
+          },
+          {
+            "kind" : "article",
+            "nodeID" : 19
+          },
+          {
+            "kind" : "article",
+            "nodeID" : 6
+          },
+          {
+            "kind" : "article",
+            "nodeID" : 119
+          },
+          {
+            "kind" : "article",
+            "nodeID" : 331
+          },
+          {
+            "kind" : "article",
+            "nodeID" : 307
+          },
+          {
+            "kind" : "article",
+            "nodeID" : 123
+          },
+          {
+            "kind" : "article",
+            "nodeID" : 289
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 149
+          },
+          {
+            "kind" : "article",
+            "nodeID" : 279
+          },
+          {
+            "kind" : "article",
+            "nodeID" : 45
+          },
+          {
+            "kind" : "article",
+            "nodeID" : 128
+          },
+          {
+            "kind" : "article",
+            "nodeID" : 189
+          },
+          {
+            "kind" : "article",
+            "nodeID" : 106
+          },
+          {
+            "kind" : "article",
+            "nodeID" : 77
+          },
+          {
+            "kind" : "article",
+            "nodeID" : 234
+          },
+          {
+            "kind" : "article",
+            "nodeID" : 104
+          },
+          {
+            "kind" : "article",
+            "nodeID" : 301
+          },
+          {
+            "kind" : "article",
+            "nodeID" : 272
+          },
+          {
+            "kind" : "article",
+            "nodeID" : 211
+          },
+          {
+            "kind" : "article",
+            "nodeID" : 248
+          },
+          {
+            "kind" : "article",
+            "nodeID" : 58
+          },
+          {
+            "kind" : "article",
+            "nodeID" : 308
+          },
+          {
+            "kind" : "article",
+            "nodeID" : 122
+          },
+          {
+            "kind" : "article",
+            "nodeID" : 20
+          },
+          {
+            "kind" : "article",
+            "nodeID" : 70
+          },
+          {
+            "kind" : "article",
+            "nodeID" : 34
+          },
+          {
+            "kind" : "article",
+            "nodeID" : 321
+          },
+          {
+            "kind" : "article",
+            "nodeID" : 180
+          },
+          {
+            "kind" : "article",
+            "nodeID" : 340
+          },
+          {
+            "kind" : "article",
+            "nodeID" : 38
+          },
+          {
+            "kind" : "article",
+            "nodeID" : 151
+          },
+          {
+            "kind" : "article",
+            "nodeID" : 231
+          },
+          {
+            "kind" : "article",
+            "nodeID" : 53
+          },
+          {
+            "kind" : "article",
+            "nodeID" : 16
+          },
+          {
+            "kind" : "article",
+            "nodeID" : 341
+          },
+          {
+            "kind" : "article",
+            "nodeID" : 116
+          },
+          {
+            "kind" : "article",
+            "nodeID" : 43
+          },
+          {
+            "kind" : "article",
+            "nodeID" : 171
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 326
+          },
+          {
+            "kind" : "article",
+            "nodeID" : 73
+          },
+          {
+            "kind" : "article",
+            "nodeID" : 202
+          },
+          {
+            "kind" : "article",
+            "nodeID" : 169
+          },
+          {
+            "kind" : "article",
+            "nodeID" : 88
+          },
+          {
+            "kind" : "article",
+            "nodeID" : 309
+          },
+          {
+            "kind" : "article",
+            "nodeID" : 42
+          },
+          {
+            "kind" : "article",
+            "nodeID" : 181
+          },
+          {
+            "kind" : "article",
+            "nodeID" : 258
+          },
+          {
+            "kind" : "article",
+            "nodeID" : 207
+          },
+          {
+            "kind" : "article",
+            "nodeID" : 249
+          },
+          {
+            "kind" : "article",
+            "nodeID" : 153
+          },
+          {
+            "kind" : "article",
+            "nodeID" : 246
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 17
+          },
+          {
+            "kind" : "article",
+            "nodeID" : 219
+          },
+          {
+            "kind" : "article",
+            "nodeID" : 273
+          },
+          {
+            "kind" : "article",
+            "nodeID" : 61
+          },
+          {
+            "kind" : "article",
+            "nodeID" : 98
+          },
+          {
+            "kind" : "article",
+            "nodeID" : 139
+          },
+          {
+            "kind" : "article",
+            "nodeID" : 263
+          },
+          {
+            "kind" : "article",
+            "nodeID" : 267
+          },
+          {
+            "kind" : "article",
+            "nodeID" : 312
+          },
+          {
+            "kind" : "article",
+            "nodeID" : 10
+          }
+        ],
+        "name" : "PackageManagerDocs",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "PackageManagerDocs"
+        }
+      },
+      {
+        "children" : [
+          {
+            "kind" : "anchor",
+            "nodeID" : 59
+          }
+        ],
+        "name" : "SwiftRun"
+      },
+      {
+        "name" : "Signature-formats"
+      },
+      {
+        "name" : "PackageMigrate"
+      },
+      {
+        "name" : "Overview"
+      },
+      {
+        "name" : "Overview"
+      },
+      {
+        "name" : "Validating-signed-packages"
+      },
+      {
+        "name" : "Swift-Package-Manager-Registry-Configuration"
+      },
+      {
+        "children" : [
+          {
+            "kind" : "anchor",
+            "nodeID" : 170
+          }
+        ],
+        "name" : "SwiftBuild"
+      },
+      {
+        "name" : "Overview"
+      },
+      {
+        "name" : "Updating-the-dependencies"
+      },
+      {
+        "name" : "Editing-packages"
+      },
+      {
+        "name" : "Access-a-resource-in-code"
+      },
+      {
+        "children" : [
+          {
+            "kind" : "anchor",
+            "nodeID" : 39
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 329
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 162
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 240
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 165
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 152
+          }
+        ],
+        "name" : "SwiftSDKCommands"
+      },
+      {
+        "name" : "Release"
+      },
+      {
+        "children" : [
+          {
+            "kind" : "anchor",
+            "nodeID" : 335
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 72
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 296
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 239
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 264
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 50
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 176
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 120
+          }
+        ],
+        "name" : "PackageRegistryLogin"
+      },
+      {
+        "children" : [
+          {
+            "kind" : "anchor",
+            "nodeID" : 9
+          }
+        ],
+        "name" : "SwiftPMAsALibrary"
+      },
+      {
+        "name" : "Example-basic-authentication-operating-systems-credential-store-not-supported-interactive"
+      },
+      {
+        "name" : "Metadata-and-packages-of-a-collection"
+      },
+      {
+        "name" : "PackageArchiveSource"
+      },
+      {
+        "name" : "PackagePurgeCache"
+      },
+      {
+        "name" : "Using-xcodebuild"
+      },
+      {
+        "children" : [
+          {
+            "kind" : "anchor",
+            "nodeID" : 210
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 215
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 268
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 316
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 23
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 47
+          }
+        ],
+        "name" : "AddingDependencies"
+      },
+      {
+        "name" : "Exempting-sandbox-constraints"
+      },
+      {
+        "children" : [
+          {
+            "kind" : "anchor",
+            "nodeID" : 229
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 112
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 295
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 56
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 154
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 255
+          }
+        ],
+        "name" : "WritingCommandPlugin"
+      },
+      {
+        "children" : [
+          {
+            "kind" : "anchor",
+            "nodeID" : 115
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 68
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 209
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 266
+          }
+        ],
+        "name" : "BundlingResources"
+      },
+      {
+        "name" : "Zsh"
+      },
+      {
+        "name" : "Xcode-Extensions-to-the-PackagePlugin-API"
+      },
+      {
+        "name" : "PackageComputeChecksum"
+      },
+      {
+        "name" : "Overview"
+      },
+      {
+        "name" : "Removing-a-package-collection"
+      },
+      {
+        "name" : "Importing-Dependencies"
+      },
+      {
+        "name" : "Build-tool-target-dependencies"
+      },
+      {
+        "name" : "tutorials"
+      },
+      {
+        "name" : "Integrating-Package-Manager-into-your-shell"
+      },
+      {
+        "name" : "451-URL-to-package-identifier-mappings"
+      },
+      {
+        "children" : [
+          {
+            "kind" : "anchor",
+            "nodeID" : 29
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 236
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 114
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 3
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 64
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 161
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 146
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 137
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 286
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 71
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 330
+          }
+        ],
+        "name" : "SwiftPackageCommands"
+      },
+      {
+        "name" : "SDKConfigure"
+      },
+      {
+        "name" : "Using-pkg-config-to-provide-header-and-linker-search-paths"
+      },
+      {
+        "name" : "Inspecting-package-collections"
+      },
+      {
+        "name" : "PackageAddDependency"
+      },
+      {
+        "name" : "Module-based-search"
+      },
+      {
+        "name" : "Prebuild-commands"
+      },
+      {
+        "name" : "Updating-and-resolving-dependencies"
+      },
+      {
+        "name" : "Overview"
+      },
+      {
+        "name" : "Additional-Flags"
+      },
+      {
+        "name" : "Overview"
+      },
+      {
+        "name" : "Example"
+      },
+      {
+        "name" : "SDKInstall"
+      },
+      {
+        "name" : "Installing-an-SDK"
+      },
+      {
+        "children" : [
+          {
+            "kind" : "anchor",
+            "nodeID" : 230
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 44
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 155
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 174
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 168
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 172
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 182
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 31
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 164
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 97
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 57
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 67
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 159
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 220
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 224
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 184
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 214
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 138
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 198
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 216
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 163
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 324
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 101
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 262
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 41
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 305
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 271
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 83
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 322
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 91
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 302
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 40
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 5
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 299
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 235
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 337
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 257
+          }
+        ],
+        "name" : "RegistryServerSpecification"
+      },
+      {
+        "name" : "Debugging-and-Testing"
+      },
+      {
+        "name" : "33-Error-handling"
+      },
+      {
+        "name" : "Version-specific-manifests"
+      },
+      {
+        "name" : "Creating-Package-Collections"
+      },
+      {
+        "name" : "Overview"
+      },
+      {
+        "name" : "4631-Synchronous-publication"
+      },
+      {
+        "name" : "Add-a-dependency"
+      },
+      {
+        "name" : "Archiving-packages"
+      },
+      {
+        "name" : "Configuring-an-SDK"
+      },
+      {
+        "name" : "PackageRelease-type"
+      },
+      {
+        "name" : "6-Informative-References"
+      },
+      {
+        "name" : "Deprecated-Commands"
+      },
+      {
+        "name" : "Usage"
+      },
+      {
+        "name" : "Overview"
+      },
+      {
+        "name" : "42-Fetch-information-about-a-package-release"
+      },
+      {
+        "children" : [
+          {
+            "kind" : "anchor",
+            "nodeID" : 332
+          }
+        ],
+        "name" : "ReleasingPublishingAPackage"
+      },
+      {
+        "name" : "buildhelp"
+      },
+      {
+        "children" : [
+          {
+            "kind" : "anchor",
+            "nodeID" : 150
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 157
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 313
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 52
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 328
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 12
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 208
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 197
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 188
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 238
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 156
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 13
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 242
+          }
+        ],
+        "name" : "PackageCollections"
+      },
+      {
+        "name" : "441-Integrity-verification"
+      },
+      {
+        "name" : "Overview"
+      },
+      {
+        "name" : "46-Create-a-package-release"
+      },
+      {
+        "name" : "Identify-the-targets-to-enable"
+      },
+      {
+        "name" : "Usage"
+      },
+      {
+        "name" : "Overview"
+      },
+      {
+        "name" : "Plugin-Capabilities"
+      },
+      {
+        "name" : "Overview"
+      },
+      {
+        "children" : [
+          {
+            "kind" : "anchor",
+            "nodeID" : 82
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 278
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 315
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 121
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 90
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 223
+          }
+        ],
+        "name" : "PackageCollectionDescribe"
+      },
+      {
+        "children" : [
+          {
+            "kind" : "anchor",
+            "nodeID" : 144
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 167
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 193
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 259
+          }
+        ],
+        "name" : "PackageCollectionSearch"
+      },
+      {
+        "name" : "43-Fetch-manifest-for-a-package-release"
+      },
+      {
+        "children" : [
+          {
+            "kind" : "anchor",
+            "nodeID" : 225
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 217
+          }
+        ],
+        "name" : "EditingDependencyPackage"
+      },
+      {
+        "name" : "442-Download-locations"
+      },
+      {
+        "name" : "Exposing-C-functions-to-Swift"
+      },
+      {
+        "name" : "Package-release-metadata"
+      },
+      {
+        "name" : "Changes-to-registry-configuration"
+      },
+      {
+        "name" : "Overview"
+      },
+      {
+        "children" : [
+          {
+            "kind" : "anchor",
+            "nodeID" : 291
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 285
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 60
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 303
+          }
+        ],
+        "name" : "CreatingSwiftPackage"
+      },
+      {
+        "name" : "Signed-packages-from-a-registry"
+      },
+      {
+        "name" : "Package-security"
+      },
+      {
+        "children" : [
+          {
+            "kind" : "anchor",
+            "nodeID" : 200
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 187
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 275
+          }
+        ],
+        "name" : "PackageRegistryLogout"
+      },
+      {
+        "name" : "Usage"
+      },
+      {
+        "children" : [
+          {
+            "kind" : "anchor",
+            "nodeID" : 338
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 33
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 203
+          }
+        ],
+        "name" : "IntroducingPackages"
+      },
+      {
+        "name" : "How-to-Use"
+      },
+      {
+        "name" : "Debugging-and-Testing"
+      },
+      {
+        "name" : "Add-versions-to-a-package"
+      },
+      {
+        "name" : "44-Download-source-archive"
+      },
+      {
+        "name" : "Overview"
+      },
+      {
+        "name" : "Overview"
+      },
+      {
+        "name" : "Registry-to-scope-mappings"
+      },
+      {
+        "children" : [
+          {
+            "kind" : "anchor",
+            "nodeID" : 280
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 129
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 85
+          }
+        ],
+        "name" : "UsingShellCompletion"
+      },
+      {
+        "name" : "About-Modules"
+      },
+      {
+        "name" : "Diagnostics"
+      },
+      {
+        "name" : "PackageInit"
+      },
+      {
+        "name" : "Use-the-Expected-Version-of-a-Package-Dependency"
+      },
+      {
+        "name" : "SDKConfigurationShow"
+      },
+      {
+        "name" : "Using-the-package-collection-CLI"
+      },
+      {
+        "name" : "Explicitly-declare-or-exclude-resources"
+      },
+      {
+        "name" : "Precomiled-Binary-Targets-for-Apple-platforms"
+      },
+      {
+        "name" : "PackageCompletionTool"
+      },
+      {
+        "name" : "Usage"
+      },
+      {
+        "name" : "Resolving-dependencies-with-different-tools-versions"
+      },
+      {
+        "name" : "34-Rate-limiting"
+      },
+      {
+        "name" : "System-Library-Dependencies"
+      },
+      {
+        "name" : "462-Package-release-metadata"
+      },
+      {
+        "name" : "Overview"
+      },
+      {
+        "name" : "Trust-on-First-Use"
+      },
+      {
+        "children" : [
+          {
+            "kind" : "anchor",
+            "nodeID" : 14
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 177
+          }
+        ],
+        "name" : "ResolvingDependencyFailures"
+      },
+      {
+        "name" : "2-Definitions"
+      },
+      {
+        "name" : "Package-signing"
+      },
+      {
+        "name" : "Publisher-TOFU"
+      },
+      {
+        "name" : "Usage"
+      },
+      {
+        "name" : "Appendix-B-Package-Release-Metadata-JSON-Schema"
+      },
+      {
+        "name" : "Top-of-Tree-Development"
+      },
+      {
+        "name" : "Overview"
+      },
+      {
+        "name" : "Usage"
+      },
+      {
+        "name" : "PackageShowExecutables"
+      },
+      {
+        "name" : "Declaring-a-command-plugin-in-the-package-manifest"
+      },
+      {
+        "name" : "36-Package-identification"
+      },
+      {
+        "name" : "SDKList"
+      },
+      {
+        "name" : "Overview"
+      },
+      {
+        "name" : "PackageAddTarget"
+      },
+      {
+        "children" : [
+          {
+            "kind" : "anchor",
+            "nodeID" : 141
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 27
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 304
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 7
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 252
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 314
+          }
+        ],
+        "name" : "AddingSystemLibraryDependency"
+      },
+      {
+        "name" : "35-API-versioning"
+      },
+      {
+        "name" : "Using-package-manager-plugins"
+      },
+      {
+        "name" : "Trusted-root-certificates"
+      },
+      {
+        "name" : "Security-risks"
+      },
+      {
+        "name" : "Example-basic-authentication-macOS-interactive"
+      },
+      {
+        "name" : "Listing-SDKs"
+      },
+      {
+        "name" : "Essentials"
+      },
+      {
+        "name" : "Protecting-package-collections"
+      },
+      {
+        "name" : "Reference"
+      },
+      {
+        "name" : "Add-the-system-library-dependency-to-the-executable-target"
+      },
+      {
+        "children" : [
+          {
+            "kind" : "anchor",
+            "nodeID" : 290
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 107
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 30
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 87
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 178
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 339
+          }
+        ],
+        "name" : "Plugins"
+      },
+      {
+        "children" : [
+          {
+            "kind" : "anchor",
+            "nodeID" : 173
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 213
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 283
+          }
+        ],
+        "name" : "SettingSwiftToolsVersion"
+      },
+      {
+        "name" : "Override-Module-Aliases"
+      },
+      {
+        "name" : "PackageUnedit"
+      },
+      {
+        "name" : "SDKRemove"
+      },
+      {
+        "name" : "Example"
+      },
+      {
+        "name" : "Overview"
+      },
+      {
+        "name" : "Versioning-Modules-from-system-libraries"
+      },
+      {
+        "name" : "Project-level"
+      },
+      {
+        "name" : "Overview"
+      },
+      {
+        "name" : "Xcode-Extensions-to-the-PackagePlugin-API"
+      },
+      {
+        "name" : "Overview"
+      },
+      {
+        "name" : "5-Normative-References"
+      },
+      {
+        "children" : [
+          {
+            "kind" : "anchor",
+            "nodeID" : 63
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 221
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 21
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 222
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 254
+          }
+        ],
+        "name" : "PackageRegistryPublish"
+      },
+      {
+        "name" : "String-based-search"
+      },
+      {
+        "name" : "Overview"
+      },
+      {
+        "name" : "Usage"
+      },
+      {
+        "name" : "4632-Asynchronous-publication"
+      },
+      {
+        "name" : "PackageDescription"
+      },
+      {
+        "name" : "Example-basic-authentication-operating-systems-credential-store-not-supported-non-interactive-non-default-login-URL"
+      },
+      {
+        "name" : "Debug"
+      },
+      {
+        "name" : "Overview"
+      },
+      {
+        "children" : [
+          {
+            "kind" : "anchor",
+            "nodeID" : 227
+          }
+        ],
+        "name" : "PackageRegistryUnset"
+      },
+      {
+        "name" : "Topics"
+      },
+      {
+        "name" : "Pass-arguments-and-flags-to-the-plugin"
+      },
+      {
+        "name" : "Publishing-to-Registry"
+      },
+      {
+        "name" : "443-Signature-validation"
+      },
+      {
+        "children" : [
+          {
+            "kind" : "anchor",
+            "nodeID" : 158
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 288
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 69
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 55
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 2
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 261
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 253
+          }
+        ],
+        "name" : "PackageRegistrySet"
+      },
+      {
+        "name" : "SDKConfigurationReset"
+      },
+      {
+        "name" : "Accessing-Registries"
+      },
+      {
+        "name" : "Usage"
+      },
+      {
+        "name" : "Overview"
+      },
+      {
+        "name" : "Unsigned-package-collections"
+      },
+      {
+        "name" : "Overview"
+      },
+      {
+        "name" : "PackageExperimentalUninstall"
+      },
+      {
+        "name" : "Overview"
+      },
+      {
+        "name" : "swifttestlist"
+      },
+      {
+        "name" : "Version-specific-Manifest-Selection"
+      },
+      {
+        "name" : "Adjusting-the-tools-version"
+      },
+      {
+        "name" : "Dependency-Resolution-Using-Registry"
+      },
+      {
+        "name" : "Creating-a-Library-Package"
+      },
+      {
+        "name" : "Configuring-Mirrors"
+      },
+      {
+        "name" : "Add-a-dependency"
+      },
+      {
+        "name" : "Removing-a-registry"
+      },
+      {
+        "name" : "PackageConfigSetMirror"
+      },
+      {
+        "name" : "Enabling-Plugins"
+      },
+      {
+        "name" : "Creating-a-Macro-Package"
+      },
+      {
+        "name" : "Create-a-module-map-and-local-header"
+      },
+      {
+        "name" : "Trusted-vs-untrusted-certificate"
+      },
+      {
+        "name" : "Trusted-root-certificates"
+      },
+      {
+        "name" : "Diagnostics"
+      },
+      {
+        "name" : "Overview"
+      },
+      {
+        "children" : [
+          {
+            "kind" : "anchor",
+            "nodeID" : 113
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 76
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 102
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 298
+          }
+        ],
+        "name" : "ResolvingPackageVersions"
+      },
+      {
+        "name" : "Coordinating-versions-of-dependencies-for-your-package"
+      },
+      {
+        "name" : "422-Package-release-metadata-standards"
+      },
+      {
+        "name" : "Package-manifests"
+      },
+      {
+        "children" : [
+          {
+            "kind" : "anchor",
+            "nodeID" : 132
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 191
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 105
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 86
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 284
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 318
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 306
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 109
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 24
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 333
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 62
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 270
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 186
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 110
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 201
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 300
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 36
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 319
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 28
+          }
+        ],
+        "name" : "UsingSwiftPackageRegistry"
+      },
+      {
+        "name" : "431-swift-version-query-parameter"
+      },
+      {
+        "name" : "Overview"
+      },
+      {
+        "name" : "Overview"
+      },
+      {
+        "name" : "1-Notations"
+      },
+      {
+        "name" : "Dependency-Download-From-Registry"
+      },
+      {
+        "name" : "PackageToolsVersion"
+      },
+      {
+        "name" : "PackageAddTargetDependency"
+      },
+      {
+        "children" : [
+          {
+            "kind" : "anchor",
+            "nodeID" : 147
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 166
+          }
+        ],
+        "name" : "PackageCollectionRefresh"
+      },
+      {
+        "name" : "Implementing-the-build-tool-plugin-script"
+      },
+      {
+        "name" : "Version-specific-tags-when-resolving-remote-dependencies"
+      },
+      {
+        "name" : "PackageDescribe"
+      },
+      {
+        "name" : "Version-specific-tags"
+      },
+      {
+        "name" : "System-Libraries-With-Optional-Dependencies"
+      },
+      {
+        "name" : "Signed-package-collections"
+      },
+      {
+        "name" : "Overview"
+      },
+      {
+        "name" : "Overview"
+      },
+      {
+        "name" : "Registry-authentication"
+      },
+      {
+        "name" : "Source-archive"
+      },
+      {
+        "name" : "Transitive-Logging-modules"
+      },
+      {
+        "children" : [
+          {
+            "kind" : "anchor",
+            "nodeID" : 99
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 22
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 274
+          }
+        ],
+        "name" : "SwiftPackageRegistryCommands"
+      },
+      {
+        "name" : "463-Synchronous-and-asynchronous-publication"
+      },
+      {
+        "name" : "Updating-package-collection"
+      },
+      {
+        "name" : "Author-type"
+      },
+      {
+        "children" : [
+          {
+            "kind" : "anchor",
+            "nodeID" : 212
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 317
+          }
+        ],
+        "name" : "PackageCollectionList"
+      },
+      {
+        "name" : "Guides"
+      },
+      {
+        "name" : "Overview"
+      },
+      {
+        "name" : "Add-packages-to-the-collection"
+      },
+      {
+        "name" : "Overview"
+      },
+      {
+        "name" : "Cleaning-builds-and-caches"
+      },
+      {
+        "name" : "PackageConfigUnsetMirror"
+      },
+      {
+        "name" : "Overview"
+      },
+      {
+        "name" : "Configuring-a-registry"
+      },
+      {
+        "name" : "PackageDiagnoseAPIBreakingChange"
+      },
+      {
+        "name" : "Example-basic-authentication-operating-systems-credential-store-not-supported-non-interactive"
+      },
+      {
+        "name" : "Signed-package-collections"
+      },
+      {
+        "name" : "Appendix-A-OpenAPI-Document"
+      },
+      {
+        "name" : "About-Dependencies"
+      },
+      {
+        "name" : "References"
+      },
+      {
+        "name" : "PackageReset"
+      },
+      {
+        "name" : "PackagePlugin"
+      },
+      {
+        "name" : "Creating-a-Library-Package"
+      },
+      {
+        "name" : "Overview"
+      }
+    ],
+    "tutorialContainer" : 78,
+    "tutorialOverviewContainer" : 136
+  },
+  "version" : {
+    "major" : 0,
+    "minor" : 1,
+    "patch" : 0
+  }
+}

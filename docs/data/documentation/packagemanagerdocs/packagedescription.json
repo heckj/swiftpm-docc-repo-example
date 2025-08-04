@@ -1,0 +1,118 @@
+{
+  "abstract" : [
+    {
+      "text" : "Create reusable code, organize it in a lightweight way, and share it across your projects and with other developers.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs\/PackageDescription"
+  },
+  "kind" : "article",
+  "metadata" : {
+    "modules" : [
+      {
+        "name" : "Swift Package Manager"
+      }
+    ],
+    "role" : "article",
+    "roleHeading" : "Article",
+    "title" : "Package Description"
+  },
+  "primaryContentSections" : [
+    {
+      "content" : [
+        {
+          "anchor" : "overview",
+          "level" : 2,
+          "text" : "Overview",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "For more information about the ",
+              "type" : "text"
+            },
+            {
+              "code" : "PackageDescription",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " framework, please visit the ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "https:\/\/developer.apple.com\/documentation\/packagedescription",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : ".",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        }
+      ],
+      "kind" : "content"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/packagemanagerdocs\/packagedescription"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://PackageManagerDocs/documentation/PackageManagerDocs": {
+  "abstract" : [
+    {
+      "text" : "Organize, manage, and edit Swift packages.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/PackageManagerDocs\/documentation\/PackageManagerDocs",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Swift Package Manager",
+  "type" : "topic",
+  "url" : "\/documentation\/packagemanagerdocs"
+},
+"https://developer.apple.com/documentation/packagedescription": {
+  "identifier" : "https:\/\/developer.apple.com\/documentation\/packagedescription",
+  "title" : "API documentation",
+  "titleInlineContent" : [
+    {
+      "text" : "API documentation",
+      "type" : "text"
+    }
+  ],
+  "type" : "link",
+  "url" : "https:\/\/developer.apple.com\/documentation\/packagedescription"
+}
+}
+}
