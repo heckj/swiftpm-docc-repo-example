@@ -34,5 +34,7 @@ Specific archives combined:
   - https://heckj.github.io/swiftpm-docc-repo-example/documentation/packageplugin
   - https://heckj.github.io/swiftpm-docc-repo-example/documentation/packagedescription
 
-
-
+> Note: This is the simplest possible treatment - there's some options to adjust the synthesized 
+> combined-page display. In particular, you can use the 
+> [@PageImage directive](https://www.swift.org/documentation/docc/pageimage) (and other page 
+> presentation directives) to adjust the visual display of the technology pages in the synthesized page.
